@@ -64,6 +64,8 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
 3. unzip that file
 4. import the project into ur ide
 
-
+=> config project at spring init web
+1. open spring initializer website
+2.
 
 
