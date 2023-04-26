@@ -66,6 +66,10 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
 
 => config project at spring init web
 1. open spring initializer website
-2.
+2. fill/select c1r1--> project: Maven
+3. fill/select c1r2--> Language:java
+4. select c2r1 --> spring boot: choose the latest released version/ avoid snapshot versions since they are alpha or beta
+
+
 
 
