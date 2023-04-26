@@ -1,0 +1,69 @@
+Main obj: learn how to build java apps with springboot and hibernate
+
+we will learn--
+dev sb apps, dev rest API using sb, connect hibernate/JPA for database access
+dev rest api using sb
+create spring mvc app with sb, connect sb app to a database for crud dev, apply spring security to control app access
+xml/maven
+
+
+version: sb3,  spring 6
+sb3: require jdk 17 or higher
+
+
+# springboot embedded server- provide an embedded http server so you can get start quickly
+-tomcat jetty..
+- no need to install a server separately
+
+
+code+ tomcat----> add jar file/includes the server--> self contained unit
+
+
+
+=> running sb app:
+-can be run standalone( included embadded server)
+- run from ide/ command line( ex jar jar_file_name.jar)
+
+
+
+=> deploying sb app
+- can also be deployed in tradition fashion
+-deploy warfile to an external server: tomcat, jboss, websphere etc
+
+
+
+=> does sb replace spring mvc, springrest etc?
+-no sb uses there tech(spring core /rest/mvc/aop ) in background
+
+
+#sb initializer:
+-quick create a starter spring project
+-select your dependency
+-create a maven/gradle project
+-import your project into your ide
+-eclipse, intelij, etc
+
+
+=> maven:
+-when we build our java project we may need addi. jar files, ex. spring, hibernate, commons loggings , json etc.
+- one approach is to downl. the jar files from each proj. website
+- manually add the jar files to your build path/classpath
+
+
+=> maven provide a nice sollution:
+-tell maven the project you are working with dependencies
+-spring, hib...
+-maven will go out and download the jar files for those projectss 4 u
+-and maven will make those jar files available during compile/run
+- think or maven as your friendly helper/personal shopper
+
+
+=> developement process:
+1. confi a project at spring init website
+2. download the zip file
+3. unzip that file
+4. import the project into ur ide
+
+
+
+
