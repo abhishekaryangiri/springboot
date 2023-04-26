@@ -69,7 +69,12 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
 2. fill/select c1r1--> project: Maven
 3. fill/select c1r2--> Language:java
 4. select c2r1 --> spring boot: choose the latest released version/ avoid snapshot versions since they are alpha or beta
-
+5. fill project metadata>
+ -group....we can set coordinate here ex. / set up the group id/com.abhisb.springboot.demo
+  -artifact: actual name of the app/abhisbapp
+  -packaging: jar
+  - jaca: latest/17
+  
 
 
 
