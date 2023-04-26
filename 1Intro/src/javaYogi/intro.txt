@@ -74,6 +74,13 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
   -artifact: actual name of the app/abhisbapp
   -packaging: jar
   - jaca: latest/17
+ 5. dependencies: springboot starter/actual depend that we want for our appli.
+  -web(spring web)
+  - accorning to need/select them
+ 5. generate
+ 6. go to dolder and unzip and copy file
+ 7.  create a new folder and paste 
+ 8. inport maven project in your ide
   
 
 
