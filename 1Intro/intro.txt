@@ -90,7 +90,10 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
   - pom.xml: maven file
   - mvnw: mvnw file: talk about latter
   - src->main->app_name->right_click_run_appname->see in terminal->app will run
-  -( remember sbt included an embaded server/ex.  8080 http
+  - ( remember sbt included an embaded server/ex.  8080 http
+  - ( it shows- tomcat started on port...)
+  - ( started app_name in 000 sec)
+  - 
 
 
 
