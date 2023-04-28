@@ -89,7 +89,7 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
   - project: project name/ abhiapp
   - pom.xml: maven file
   - mvnw: mvnw file: talk about latter
-  
+  - src->main->app_name->right_click_run_appname->see in terminal->app will run
   
 
 
