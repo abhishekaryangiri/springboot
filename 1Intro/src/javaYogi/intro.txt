@@ -81,6 +81,14 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
  6. go to dolder and unzip and copy file
  7.  create a new folder and paste 
  8. inport maven project in your ide
+ 
+ 
+ 
+ 
+ => file Intro
+  - project: project name/ abhiapp
+  - pom.xml: maven file
+  - mvnw: mvnw file: talk about latter
   
 
 
