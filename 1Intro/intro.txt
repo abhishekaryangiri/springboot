@@ -106,7 +106,11 @@ The above command will give the entire instructions on how to create a project u
 
 Let’s assume that you want to generate a demo.zip project based on Spring Boot 1.5.2.RELEASE, using the web and developer tools dependencies (remember, those two IDs are displayed in the capabilities of the service):
 
-
+$ curl https://start.spring.io/starter.zip -d dependencies=web,devtools \
+           -d bootVersion=1.5.2.RELEASE -o demo.zip.zip
+           
+           
+           
 
 
 
