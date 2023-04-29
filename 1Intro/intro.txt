@@ -94,6 +94,10 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
   - ( it shows- tomcat started on port...)
   - ( started app_name in 000 sec)
   - 
+  
+  
+  =>
+  Method 2: Spring Initializr using Command Line
 
 
 
