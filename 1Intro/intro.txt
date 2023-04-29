@@ -98,6 +98,11 @@ code+ tomcat----> add jar file/includes the server--> self contained unit
   
   =>
   Method 2: Spring Initializr using Command Line
+A lot of developers love to do things from the command line. For them, there is an option to create the Spring project using command-line utilities like cURL or HTTPie. To use cURL or HTTPie, one has to install them prior to the usage.
+
+curl https://start.spring.io
+The above command will give the entire instructions on how to create a project using curl.
+
 
 
 
