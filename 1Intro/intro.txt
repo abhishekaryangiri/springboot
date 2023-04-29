@@ -104,5 +104,11 @@ curl https://start.spring.io
 The above command will give the entire instructions on how to create a project using curl.
 
 
+Let’s assume that you want to generate a demo.zip project based on Spring Boot 1.5.2.RELEASE, using the web and developer tools dependencies (remember, those two IDs are displayed in the capabilities of the service):
+
+
+
+
+
 
 
