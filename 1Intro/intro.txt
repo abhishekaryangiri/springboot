@@ -108,7 +108,14 @@ Let’s assume that you want to generate a demo.zip project based on Spring Boot
 
 $ curl https://start.spring.io/starter.zip -d dependencies=web,devtools \
            -d bootVersion=1.5.2.RELEASE -o demo.zip.zip
-           
+       
+ The exact same project can be generated using the HTTP command as well:
+
+$ http https://start.spring.io/starter.zip -d dependencies==web,devtools \
+           -d bootVersion==1.5.1.RELEASE -o demo.zip
+Note: Apart from all these, Spring Initializr teams also provide extensible APIs for creating JVM-based projects. Also, one can create their own instance of Spring Initializr for their own projects. It also provides various options for the project that are expressed in a metadata model. The metadata model allows us to configure the list of dependencies supported by JVM and platform versions, etc.
+
+
            
            
 
