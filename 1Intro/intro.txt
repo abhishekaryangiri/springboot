@@ -120,6 +120,7 @@ Note: Apart from all these, Spring Initializr teams also provide extensible APIs
           
  
  => create rest controller : 
+  -a very simple rest controller that we can say: " hello world"
            
 
 
