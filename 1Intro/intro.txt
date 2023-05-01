@@ -124,6 +124,10 @@ Note: Apart from all these, Spring Initializr teams also provide extensible APIs
   - bcz few sec ago, we had springboot  up and running, but we get ugly error page bcz we dnt have any coding in place
   
   - so we will do hear, here we will create a very simple  REST contriller that will say "hello world"
+  
+  => 1. Create rest controller:
+  very easy:  simply say at rest controller:
+  - @RestController ( set up rest controller)
            
 
 
