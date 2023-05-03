@@ -130,6 +130,11 @@ Note: Apart from all these, Spring Initializr teams also provide extensible APIs
   - @RestController ( set up rest controller)
   public class  FunRestcontroller{
   //expose "/" that returns hello world
+  @GetMapping("/")
+  public String sayHello() {
+  return "Hello World";
+  }
+  
   -name it
   
   
