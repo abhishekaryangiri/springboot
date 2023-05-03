@@ -128,6 +128,8 @@ Note: Apart from all these, Spring Initializr teams also provide extensible APIs
   => 1. Create rest controller:
   very easy:  simply say at rest controller:
   - @RestController ( set up rest controller)
+  public class  FunRestcontroller{
+  //expose "/" that returns hello world
   -name it
   
   
