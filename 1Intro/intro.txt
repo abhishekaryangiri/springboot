@@ -138,6 +138,7 @@ Note: Apart from all these, Spring Initializr teams also provide extensible APIs
   -name it
   
   - now stop add and Create a new Package
+   - ho on your appName Folder -> right click-> new-> package-> new Package
   
            
 
