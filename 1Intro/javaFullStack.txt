@@ -1,147 +1,16 @@
-Main obj: learn how to build java apps with springboot and hibernate
+intro.txt
 
-we will learn--
-dev sb apps, dev rest API using sb, connect hibernate/JPA for database access
-dev rest api using sb
-create spring mvc app with sb, connect sb app to a database for crud dev, apply spring security to control app access
-xml/maven
+Java Full Stack
+A full-stack developer is a person who can develop application's backend and frontend. Java full-stack is basically a term used for a web developer that uses Java to develop the entire technology stack is referred to as Java full stack developer.
 
 
-version: sb3,  spring 6
-sb3: require jdk 17 or higher
+A developer should have the following skills to become a Java full-stack developer:
 
+1. Import projects and files
+The developer should know about installing IDE's in the system such as IntelliJ and Eclipse, hello world program in IntelliJ, how we can import project files, how we can import eclipse(Java IDE) projects in IntelliJ. These are a very basic concept which not only an experience but also a fresher candidate should have.
 
-# springboot embedded server- provide an embedded http server so you can get start quickly
--tomcat jetty..
-- no need to install a server separately
-
-
-code+ tomcat----> add jar file/includes the server--> self contained unit
-
-
-
-=> running sb app:
--can be run standalone( included embadded server)
-- run from ide/ command line( ex jar jar_file_name.jar)
-
-
-
-=> deploying sb app
-- can also be deployed in tradition fashion
--deploy warfile to an external server: tomcat, jboss, websphere etc
-
-
-
-=> does sb replace spring mvc, springrest etc?
--no sb uses there tech(spring core /rest/mvc/aop ) in background
-
-
-#sb initializer:
--quick create a starter spring project
--select your dependency
--create a maven/gradle project
--import your project into your ide
--eclipse, intelij, etc
-
-
-=> maven:
--when we build our java project we may need addi. jar files, ex. spring, hibernate, commons loggings , json etc.
-- one approach is to downl. the jar files from each proj. website
-- manually add the jar files to your build path/classpath
-
-
-=> maven provide a nice sollution:
--tell maven the project you are working with dependencies
--spring, hib...
--maven will go out and download the jar files for those projectss 4 u
--and maven will make those jar files available during compile/run
-- think or maven as your friendly helper/personal shopper
-
-
-=> developement process:
-1. confi a project at spring init website
-2. download the zip file
-3. unzip that file
-4. import the project into ur ide
-
-=> config project at spring init web
-1. open spring initializer website
-2. fill/select c1r1--> project: Maven
-3. fill/select c1r2--> Language:java
-4. select c2r1 --> spring boot: choose the latest released version/ avoid snapshot versions since they are alpha or beta
-5. fill project metadata>
- -group....we can set coordinate here ex. / set up the group id/com.abhisb.springboot.demo
-  -artifact: actual name of the app/abhisbapp
-  -packaging: jar
-  - jaca: latest/17
- 5. dependencies: springboot starter/actual depend that we want for our appli.
-  -web(spring web)
-  - accorning to need/select them
- 5. generate
- 6. go to dolder and unzip and copy file
- 7.  create a new folder and paste 
- 8. inport maven project in your ide
- 
- 
- 
- ------xxxxxxXxxx------
- => file Intro
-  - project: project name/ abhiapp
-  - pom.xml: maven file
-  - mvnw: mvnw file: talk about latter
-  - src->main->app_name->right_click_run_appname->see in terminal->app will run
-  - ( remember sbt included an embaded server/ex.  8080 http
-  - ( it shows- tomcat started on port...)
-  - ( started app_name in 000 sec)
-  - 
-  
-  
-  =>
-  Method 2: Spring Initializr using Command Line
-A lot of developers love to do things from the command line. For them, there is an option to create the Spring project using command-line utilities like cURL or HTTPie. To use cURL or HTTPie, one has to install them prior to the usage.
-
-curl https://start.spring.io
-The above command will give the entire instructions on how to create a project using curl.
-
-
-Let’s assume that you want to generate a demo.zip project based on Spring Boot 1.5.2.RELEASE, using the web and developer tools dependencies (remember, those two IDs are displayed in the capabilities of the service):
-
-$ curl https://start.spring.io/starter.zip -d dependencies=web,devtools \
-           -d bootVersion=1.5.2.RELEASE -o demo.zip.zip
-       
- The exact same project can be generated using the HTTP command as well:
-
-$ http https://start.spring.io/starter.zip -d dependencies==web,devtools \
-           -d bootVersion==1.5.1.RELEASE -o demo.zip
-Note: Apart from all these, Spring Initializr teams also provide extensible APIs for creating JVM-based projects. Also, one can create their own instance of Spring Initializr for their own projects. It also provides various options for the project that are expressed in a metadata model. The metadata model allows us to configure the list of dependencies supported by JVM and platform versions, etc.
----xXxxx----
-
-          
-          
- 
- => create rest controller : 
-  -a very simple rest controller that we can say: " hello world"
-  - bcz few sec ago, we had springboot  up and running, but we get ugly error page bcz we dnt have any coding in place
-  
-  - so we will do hear, here we will create a very simple  REST contriller that will say "hello world"
-  
-  => 1. Create rest controller:
-  very easy:  simply say at rest controller:
-  - @RestController ( set up rest controller)
-  public class  FunRestcontroller{
-  //expose "/" that returns hello world
-  @GetMapping("/")
-  public String sayHello() {
-  return "Hello World";
-  }
-  
-  -name it
-  
-  - now stop add and Create a new Package
-   - ho on your appName Folder -> right click-> new-> package-> new Package
-  - write packagfe name with .packageNameWhatYouWantToName(add with .name)
-
-
+2. Decision making under Java
+The developer should have knowledge of decision-making statements and the operators which are used to make a decision. Operators such as arithmetic operators, assignments operators, and ternary operators are used for decision making. If, else if, and else statements play an important role in decision making. So, a developer should have knowledge of all the decision-making statements and operators.
 
 
 
