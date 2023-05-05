@@ -42,6 +42,11 @@ All the above-discussed concepts are part of the core Java. Once you get knowled
 The collection framework also provides some complex classes such as Set, Queue, Dequeue, Map, and TreeMap. For building complex logic and codes, these classes are very helpful to maintain data. Along with these classes, the developer should also have knowledge of different types of Sets, Custom sorting using a comparator, Equal and hashcode methods, and Searching under Maps
 
 
+9. Generics
+A developer should have knowledge of Generics in Java along with type parameters, generic method, bounded type parameter comparable interface, and wildcards. These are very important for developing complex and lengthy codes.
+
+
+
 
 
 
