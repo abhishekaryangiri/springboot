@@ -26,5 +26,18 @@ The developer should have knowledge of all the Opps concepts because Java is com
 
 
 
+6. Core Concepts
+The Oops concepts are the building blocks for every object-oriented programming language. The core concepts include Interfaces, Abstract class, multiple inheritances using interface, Inner class, Nested class, Local inner class, Anonymous object, Anonymous inner class, User input, Static elements, Static inner class, Final keyword, Packages, Scope, Access modifier, Exception handling, multiple try-catch blocks, Finally, block, Throw and throws, User-defined exception, Checked and unchecked exception, Enum, and Strings(String literals, String Object, String methods, String formatting), etc. If you have no knowledge of the core concepts of Java, get knowledge of all the above-mentioned concepts deeply.
+
+
+
+7. Java Array
+We can include Java array in core concepts, but it will be good to separate it from core concepts. The array is one of the big concepts in itself because we can perform several operations in it. We should know initializing and defining arrays, ways to define or initialize an array, perform iteration on it using for loop, access and remove variables from it, call by value and call by reference methods, and many more.
+
+
+
+
+
+
 
 
