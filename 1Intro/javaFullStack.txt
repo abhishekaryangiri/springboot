@@ -46,6 +46,10 @@ The collection framework also provides some complex classes such as Set, Queue, 
 A developer should have knowledge of Generics in Java along with type parameters, generic method, bounded type parameter comparable interface, and wildcards. These are very important for developing complex and lengthy codes.
 
 
+10. Multi-threading Concurrency Control
+In Java, concurrency control and multi-threading concurrency are the two most important topics of advanced Java. The developer should have knowledge of multi-threading, how to create a thread by extending the thread class or implementing the runnable interface, Synchronization under concurrency control, Synchronized method, Synchronized block, Synchronized block on the object, Static Synchronization, Volatile keyword, Wait and notify, Interrupt, join, thread pools, CountDownLatch, Blocking queue, Reentrant lock, and Deadlock, etc. These concepts are required for writing logic or developing multi-threading applications in Java.
+
+
 
 
 
