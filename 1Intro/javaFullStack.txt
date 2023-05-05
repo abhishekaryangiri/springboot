@@ -36,6 +36,12 @@ We can include Java array in core concepts, but it will be good to separate it f
 
 
 
+8. Collection Framework
+All the above-discussed concepts are part of the core Java. Once you get knowledge of the entire core Java concepts, you are ready to dive into advanced Java and get knowledge of its concepts. The collection Framework is the 1st most important framework that provides several useful classes such as ArrayList, Stack, LinkedList, Iterators, Comparable interface, etc. We should have the implementation knowledge of all these classes and interfaces along with their methods.
+
+The collection framework also provides some complex classes such as Set, Queue, Dequeue, Map, and TreeMap. For building complex logic and codes, these classes are very helpful to maintain data. Along with these classes, the developer should also have knowledge of different types of Sets, Custom sorting using a comparator, Equal and hashcode methods, and Searching under Maps
+
+
 
 
 
