@@ -19,5 +19,12 @@ After decision-making, the developer should know control flow statements and loo
 The developer should have knowledge of parameterized and non-parameterized methods with the return type. Method overloading and method overriding are the two most important concepts of polymorphism, which play an important role in developing Java web and desktop applications. Java is an object-oriented programming language, so your concepts of methods should be crystal and clear. The developer should also have good knowledge of code block, indentation, and statements.
 
 
+5. Oops Concepts
+The developer should have knowledge of all the Opps concepts because Java is completely based on objects, methods, and classes. Before diving into advanced Java, you should have to clear the concepts of core Java such as Classes, Getters, Setters, Constructors, Inheritance, Composition, Encapsulation, Abstraction, Objects, and Polymorphism, etc.
+
+
+
+
+
 
 
