@@ -12,5 +12,19 @@ The developer should know about installing IDE's in the system such as IntelliJ 
 2. Decision making under Java
 The developer should have knowledge of decision-making statements and the operators which are used to make a decision. Operators such as arithmetic operators, assignments operators, and ternary operators are used for decision making. If, else if, and else statements play an important role in decision making. So, a developer should have knowledge of all the decision-making statements and operators.
 
+3. Flow Control
+After decision-making, the developer should know control flow statements and looping statements such as while, do-while, for, switch case, break, continue, modulo operator and nested loop, etc. A developer cannot write a code if he/she has no knowledge of flow control. For a full-stack position, firstly, you should have to gain knowledge of all the basic concepts of Java because you can't develop lengthy codes for an organization if your basics are not clear of Java.
+
+4. Methods
+The developer should have knowledge of parameterized and non-parameterized methods with the return type. Method overloading and method overriding are the two most important concepts of polymorphism, which play an important role in developing Java web and desktop applications. Java is an object-oriented programming language, so your concepts of methods should be crystal and clear. The developer should also have good knowledge of code block, indentation, and statements.
+
+
+5. Oops Concepts
+The developer should have knowledge of all the Opps concepts because Java is completely based on objects, methods, and classes. Before diving into advanced Java, you should have to clear the concepts of core Java such as Classes, Getters, Setters, Constructors, Inheritance, Composition, Encapsulation, Abstraction, Objects, and Polymorphism, etc.
+
+
+
+
+
 
 
