@@ -74,6 +74,15 @@ Debugging is a process or steps to find bugs and errors in the code. Debugging p
 
 
 
+14. GIT basics
+GIT is one of the most widely used modern version control systems. It is an open-source project developed by Linus Torvalds in 2005. Java developers are user GIT for keeping any set of projects using a version control system. To become a Java full-stack developer, the developer should have knowledge of the following:
+
+Features of GIT.
+Setting up GIT.
+Clone and import GIT project into eclipse.
+Clone GIT project directly from eclipse.
+
+
 
 
 
