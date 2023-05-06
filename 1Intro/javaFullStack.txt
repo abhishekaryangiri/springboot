@@ -49,6 +49,17 @@ A developer should have knowledge of Generics in Java along with type parameters
 10. Multi-threading Concurrency Control
 In Java, concurrency control and multi-threading concurrency are the two most important topics of advanced Java. The developer should have knowledge of multi-threading, how to create a thread by extending the thread class or implementing the runnable interface, Synchronization under concurrency control, Synchronized method, Synchronized block, Synchronized block on the object, Static Synchronization, Volatile keyword, Wait and notify, Interrupt, join, thread pools, CountDownLatch, Blocking queue, Reentrant lock, and Deadlock, etc. These concepts are required for writing logic or developing multi-threading applications in Java.
 
+11. Lambda Expression
+Lambda Expression was added in Java SE 8 to represent one method interface using an expression. The developer should also have knowledge of predicates and lambda expressions with methods and iterators. Lambda expression:
+
+Very useful in the collection library.
+Helps to iterate data from the collection.
+Helps to filter and extract data from the collection.
+Provides the implementation of an interface that has a functional interface.
+Saves a lot of code.
+
+
+
 
 
 
