@@ -60,6 +60,10 @@ Saves a lot of code.
 
 
 
+12. Find Handling
+File handling is a concept that is important for each and every programming. In order to work with files, the developer should have knowledge of all the concepts related to read and write into the files. The developer should be experienced in Data streams, Creating files on disk, Creating a directory, writing onto files, Reading files with buffer, Reading files with a scanner, Scanner v/s a Buffered reader, File deletion, Try with resources and Serialization of Objects.
+
+All the concepts which we mentioned above are required to develop applications that work with files. So, for a Java full-stack developer position, you should have experienced in these concepts
 
 
 
