@@ -68,6 +68,14 @@ All the concepts which we mentioned above are required to develop applications t
 
 
 
+13. Debugging
+Debugging is a process or steps to find bugs and errors in the code. Debugging plays an important role in improving code quality. Developers should have the quality to debug their code. Debugging is helpful not only for debugging the code but also for understanding the flow of program code. The developer should have knowledge of how the value is updated at runtime, what is watch and how we can apply watch on variables.
+
+
+
+
+
+
 
 
 
