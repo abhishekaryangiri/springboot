@@ -84,6 +84,44 @@ Clone GIT project directly from eclipse.
 
 
 
+15. JSP and Servlets
+JSP and Servlets is a complete tutorial in itself. A developer should have knowledge of the following concepts:
+
+Java Full Stack
+a) JSP & Servlets basics
+
+It includes concepts Servlets life cycle, JSP expressions element, JSP scriptlets element, JSP declarations element, JSP comment element, JSP directive element, Deployment descriptor, and annotations, JSP configuration in the deployment descriptor, Reading URL parameters, Include files in JSP page, Import class into JSP page, Forward and redirect under JSP, MVC overview, basic redirection using servlet and application based on MVC.
+
+b) JSP & Servlets: Forms
+
+The developer should have knowledge of creating forms using JSP and servlets, form elements, forms under JSP and Servlet, and form validation, etc. These concepts are required to design forms using Java. Each and every application needs to have an authentication page such as login or signup for security reasons. So, we cannot think of designing or developing an application without creating a form.
+
+c) JSP & Servlets: Java Beans and Session management
+
+Java Beans and Session management are both required to develop an application. Basically, a bean is a reusable software component that encapsulates many objects into a single object so that we can access it from multiple places. Session management is essential for Java web applications to manage user sessions by using several ways such as Cookies and HttpSession etc.
+
+Bean scope, session, page & application, request scope, Beans with web forms, Session under JSP, Read & write operation of the cookie, user logout, Organizing application, Fixing redirect and forward links, handling session without a cookie, and servlet filters are the necessary topic whose knowledge is required to become a Java full stack developer.
+
+d) JSP & Servlets: JSTL tags
+
+JSTL tags are categorized into 5 parts, i.e., JSTL core tags, JSTL functions tags, JSTL XML tags, JSTL formatting tags and JSTL custom tag. JSTL core tags include concepts JSTL setup, JSTL set and remove tags, Reading from Bean using expression language, decision making under JSTL, JSTL choose and when tags, JSTL for loop, JSTL forEach loop, JSTL for Tokens tag, JSTL import and param tag, JSTL URL and redirect tag, and JSTL catch tag.
+
+JSTL functions tags include JSTL length functions, JSTL trim and escapeXml function, JSTL more function, JSTL even more function and JSTL split and join function.
+
+JSTL XML tags include JSTL XML and Parse and Out tag, JSTL XML ForEach and if tag, and JSTL XML Choose When otherwise.
+
+JSTL formatting tags include formatting date and number(Document).
+
+JSTL custom tag is a tag creating by the developer.
+
+e) JSP & Servlets: Integrate web template
+
+It is another important concept of JSP and Servlet. Many times, we need to integrate web templates into our application. In order to integrate web templates, we should have knowledge of how we can extract header and footer from the template, how to integrate the template with the project, and integrate the template with the project using JSTL.
+
+f) JSP & Servlets: Remaining concepts
+
+A developer should also have knowledge of how we can interact with the database, how to use the workbench, setup of the JNDI, how we can listing data on the webpage, how to use of include directive, how to add, update, delete and fetch record from the database, adding JSTL support, and Image/File upload, etc.
+
 
 
 
