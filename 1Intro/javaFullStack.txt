@@ -133,6 +133,12 @@ Spring is a framework that is mostly used for Java. It provides a comprehensive 
 All the above concepts are required to become a full-stack Java developer. If you have knowledge of all these concepts, you will definitely crack the interview process of a Java full-stack developer.
 
 
+Who is Java Developer?
+A Java Developer is a specialized programmer who work on business applications, software, and websites along with software engineers and web developers. Java developer can work in following two domains:
+
+Software/Backend development: As a software developer or backend developer, the Java developer has to perform requirement gathering, designing, database connectivity etc.
+Mobile App development: A Java developer working in mobile app development domain operate on technologies such as Android development with Kotlin/Java.
+
 
 
 
