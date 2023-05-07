@@ -139,6 +139,20 @@ A Java Developer is a specialized programmer who work on business applications, 
 Software/Backend development: As a software developer or backend developer, the Java developer has to perform requirement gathering, designing, database connectivity etc.
 Mobile App development: A Java developer working in mobile app development domain operate on technologies such as Android development with Kotlin/Java.
 
+Technical Skills required For Java Developer
+Hands-on practice in Core Java Programming
+Strong knowledge of object-oriented programming concepts, exception handling, and memory management
+Must know concepts of multi-threading and dependency injection
+Knowledge of HTML, XML, JSON, CSS, JavaScript, JSP, and Servlet
+Good knowledge of relational and/or non-relational databases such as MySQL, MongoDB, etc.
+Ability to work with ORM frameworks and technologies for example, JPA2 and Hibernate
+Work experience in any Java IDE tool such as Eclipse, Intellij IDE
+Experience in one of the framework - Spring, Struts, JSF
+Knowledge of build tools such as Maven, Gradle, etc.
+Version control (Git repository)
+Awareness of CI/CD and DevOps and tools like Jenkins, GitHub pipelines, etc.
+
+
 
 
 
