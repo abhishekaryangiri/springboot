@@ -127,5 +127,13 @@ A developer should also have knowledge of how we can interact with the database,
 Hibernate is another concept of Java. A developer should be familiar with the Hibernate and its architecture and should also have implementation knowledge of it. The developer should be experienced in MySQL and SQL workbench. In hibernate, the developer should have familiar with Session factory and session, Adding Entity class, Hibernate in Action, CRUD-Retrieving Record from Database, CRUD-Updating a Record in Database, CRUD-Deleting Record from the database, HQL(Hibernate Query Language), HQL Where clause, Update record using HQL, Deleting record using HQL, integrate hibernate with JSP and Servlet, hibernate configuration, Hibernate entity class with JSP and Servlet, Hibernate in action with JSP and Servlet, display image files, improve the view of the page, adding update information form, implement update information functionality, update specific column data using hibernate, add view image action, implement view image page, and add delete image action. All the above-mentioned concepts are related to hibernate, and hibernate is the framework that is very important for Java full-stack developers.
 
 
+17. Spring framework
+Spring is a framework that is mostly used for Java. It provides a comprehensive programming and configuration model for modern Java-based enterprise applications. In order to work with the Spring framework, we should have knowledge of the required software, Inversion of control, Dependency injection, Autowire scenarios, Qualifier annotation, Spring Bean, Constructor injection, Spring project on IntelliJ, Adding SpringMVC support on Eclipse, Simple dynamic web project, Model in a web project, Spring MVC minimal setup, Basic form with Spring MVC, ModelAndView and foreach on data, Springform elements such as Input and Radio, Radio-buttons and background, Dropdown list, Text area, checkbox, etc., Adding STS 3 support into Eclipse, Add external resource, add style sheet, Form validation, Database connectivity using JDBC(XML configuration and Annotation), Exception handling under Spring MVC, Restful API web service, database connectivity with hibernate, JAX-RS, Spring MVC + Restful web service background, building restful microservice with spring boot, and restful micro-service with database connectivity.
+
+All the above concepts are required to become a full-stack Java developer. If you have knowledge of all these concepts, you will definitely crack the interview process of a Java full-stack developer.
+
+
+
+
 
 
