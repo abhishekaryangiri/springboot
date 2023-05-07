@@ -154,6 +154,32 @@ Awareness of CI/CD and DevOps and tools like Jenkins, GitHub pipelines, etc.
 
 
 
+Other Preferred Skills
+Experience in developing SaaS, PaaS, and cloud-based web applications
+Knowledge of design principles and fundamentals of the software development lifecycle
+Familiar with Java libraries and integration of front-end with back-end
+Experience of the quality standards and best code practices
+Basic knowledge of domains and business processes
+Familiar with agile and DevOps methodologies
+Logical thinking, good analytical skills, and a problem-solving attitude
+Ability to multitask and manage projects with priorities
+Result-oriented, growth, and constant learning mindset
+Good team player and guide team members whenever required
+Excellent interpersonal skills, good verbal and written communication skills
+Must be updated with latest technologies and trends
+Analyze and create implementation strategies and improvement plans
+Contribute to the organizational processes to increase productivity
+Strong debugging skills and experience in test-driven development
+Good knowledge of testing and continuous deployment environment
+Passionate about delivering quality code within the timeline
+Hands-on experience in cloud application development and deployment
+Collaborate with the team and share improvement ideas, policies, and opportunities to increase the overall experience
+Experience in Agile development and tools like SCRUM, KANBAN, etc.
+The above list contains several soft skills that are not tied to a specific job role. A job description of a Java developer requires specific tools and frameworks as a part of the requirement.
+
+
+
+
 
 
 
