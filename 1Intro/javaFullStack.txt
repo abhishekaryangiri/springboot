@@ -213,6 +213,35 @@ Investigating alternatives and technologies
 Presenting for architectural review
 
 
+Thread States in Java
+A thread is a program in execution created to perform a specific task. Life cycle of a Java thread starts with its birth and ends on its death.
+
+The start() method of the Thread class is used to initiate the execution of a thread and it goes into runnable state and the sleep() and wait() methods of the Thread class sends the thread into non runnable state.
+
+After non runnable state, thread again comes into runnable state and starts its execution. The run() method of thread is very much important. After executing the run() method, the lifecycle of thread is completed.
+
+All these phases of threads are the states of thread in Java.
+Play
+
+Next
+Unmute
+Current TimeÂ 
+0:00
+/
+DurationÂ 
+18:10
+Â 
+Fullscreen
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+
+To work with threads in a program, it is important to identify thread state. The following figure shows thread states in Java thread life cycle.
+
+
 
 
 
