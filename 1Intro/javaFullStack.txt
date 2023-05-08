@@ -244,6 +244,18 @@ To work with threads in a program, it is important to identify thread state. The
 
 
 
+Thread States in Java
+A thread is a path of execution in a program that goes through the following states of a thread. The five states are as follows:
+
+New
+Runnable
+Running
+Blocked (Non-runnable state)
+
+
+
+
+
 
 
 
