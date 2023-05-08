@@ -187,6 +187,33 @@ Early Career	1-4 Years	426,176
 Mid-Career	5-9 Years	872,366	
 Experienced	< 10 Years	1,396,371
 
+\
+
+Roles and Responsibilities of a Java Developer
+The roles and responsibilities of a Java developer/engineer will vary greatly depending on the company and specific position. Here are some typical responsibilities:
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+
+
+Designing, implementing, and maintaining Java applications that are often high-volume and low-latency, required for mission-critical systems
+Delivering high availability and performance
+Contributing in all phases of the development lifecycle
+Writing well-designed, efficient, and testable code
+Conducting software analysis, programming, testing, and debugging
+Managing Java and Java EE application development
+Ensuring designs comply with specifications
+Preparing and producing releases of software components
+Transforming requirements into stipulations
+Support continuous improvement
+Investigating alternatives and technologies
+Presenting for architectural review
+
+
+
 
 
 
