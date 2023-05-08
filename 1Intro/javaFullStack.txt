@@ -178,6 +178,17 @@ Experience in Agile development and tools like SCRUM, KANBAN, etc.
 The above list contains several soft skills that are not tied to a specific job role. A job description of a Java developer requires specific tools and frameworks as a part of the requirement.
 
 
+Salary of a Java Developer
+Working as a Java developer is one of the highest-paying and rewarding job worldwide. In India, the average base salary of a Java developer is mentioned below.
+
+Level	Experience (in Years)	Salary in India (Rs.)	Salary in US ($)
+Fresher	>1 Year	293,272	
+Early Career	1-4 Years	426,176	
+Mid-Career	5-9 Years	872,366	
+Experienced	< 10 Years	1,396,371
+
+
+
 
 
 
