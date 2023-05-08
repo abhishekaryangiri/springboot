@@ -253,6 +253,10 @@ Running
 Blocked (Non-runnable state)
 
 
+New (Newborn State)
+When an instance of the Thread class is created a new thread is born and is known to be in New-born state. That is, when a thread is born, it enters into new state but its execution phase has not been started yet on the instance.
+
+In simpler terms, Thread object is created but it cannot execute any program statement because it is not in an execution state of the thread. Only start() method can be called on a new thread; otherwise, an IllegalThreadStateException will be thrown.
 
 
 
