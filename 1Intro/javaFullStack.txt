@@ -43,10 +43,7 @@ The collection framework also provides some complex classes such as Set, Queue, 
 
 
 9. Generics
-A developer should have knowledge of Generics in Java along with type parameters, generic method, bounded type parameter comparable interface, and wildcards. These are very important for developing complex and lengthy codes.
-
-
-10. Multi-threading Concurrency Control
+A developer should have knowledge of Generics in Java along with type parameters, generic method, bo
 In Java, concurrency control and multi-threading concurrency are the two most important topics of advanced Java. The developer should have knowledge of multi-threading, how to create a thread by extending the thread class or implementing the runnable interface, Synchronization under concurrency control, Synchronized method, Synchronized block, Synchronized block on the object, Static Synchronization, Volatile keyword, Wait and notify, Interrupt, join, thread pools, CountDownLatch, Blocking queue, Reentrant lock, and Deadlock, etc. These concepts are required for writing logic or developing multi-threading applications in Java.
 
 11. Lambda Expression
@@ -257,6 +254,13 @@ New (Newborn State)
 When an instance of the Thread class is created a new thread is born and is known to be in New-born state. That is, when a thread is born, it enters into new state but its execution phase has not been started yet on the instance.
 
 In simpler terms, Thread object is created but it cannot execute any program statement because it is not in an execution state of the thread. Only start() method can be called on a new thread; otherwise, an IllegalThreadStateException will be thrown.
+
+
+Runnable State
+The second phase of a new-born thread is the execution phase. When the start() method is called on a the new instance of a thread, it enters into a runnable state.
+In the runnable state, thread is ready for execution and is waiting for availability of the processor (CPU time). There are many threads that are ready for execution, they all are waiting in a queue (line).
+
+If all threads have equal priority, a time slot is assigned for each thread execution on the basis of first-come, first-serve manner by CPU. The process of allocating time to threads is known as time slicing. A thread can come into runnable state from running, waiting, or new states.
 
 
 
