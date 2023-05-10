@@ -270,6 +270,13 @@ In running state, processor gives its time to the thread for execution and execu
 
 
 
+A running thread may give up its control in any one of the following situations and can enter into the blocked state.
+
+When sleep() method is invoked on a thread to sleep for specified time period, the thread is out of queue during this time period. The thread again reenters into the runnable state as soon as this time period is elapsed.
+When a thread is suspended using suspend() method for some time in order to satisfy some conditions. A suspended thread can be revived by using resume() method.
+When wait() method is called on a thread to wait for some time. The thread in wait state can be run again using notify() or notifyAll() method.
+
+
 
 
 
