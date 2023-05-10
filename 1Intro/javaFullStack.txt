@@ -263,6 +263,13 @@ In the runnable state, thread is ready for execution and is waiting for availabi
 If all threads have equal priority, a time slot is assigned for each thread execution on the basis of first-come, first-serve manner by CPU. The process of allocating time to threads is known as time slicing. A thread can come into runnable state from running, waiting, or new states.
 
 
+Running State
+Running means Processor (CPU) has allocated time slot to thread for its execution. When thread scheduler selects a thread from the runnable state for execution, it goes into running state. Look at the above figure.
+
+In running state, processor gives its time to the thread for execution and executes its run method. It is the state where thread performs its actual functions. A thread can come into running state only from runnable state.
+
+
+
 
 
 
