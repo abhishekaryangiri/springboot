@@ -400,4 +400,25 @@ Let's try to differentiate Java EE and Node.js based on some factors:
 
 
 
+S.N.	Factor	Java EE	Node.js
+1.	APIs	For organizing and specifying the overall interaction between components, Java EE provides a set of APIs.	APIs play an important role in implementing coding consistency. APIs also help the developer to facilitate performance and maintenance.
+2.	Design Patterns In Java EE, the design patterns provide solutions for improving the code quality and effectiveness of the architecture.	The design patterns provide a rich set of features that enable high performance and reliability of the enterprise web application.
+3.	Modules	Java EE provides a rich set of modules through which the development process is a very flexible, adaptable, and time-efficient solution.	In addition to JavaScript library functions, there are a set of built-in modules such as HTTP. The HTTP module allows us to transfer data from one port to another port by establishing it as a connection.
+4.	Scalability	Java EE doesn't wait to complete the execution of the requests as it executes requests asynchronously. It allows the application to perform the task with a number of servers, and it might decrease the performance speed.	Node.js has great horizontal scalability with the capability of adding more hardware.
+5.	Speed	In comparison to node.js, Java EE takes a longer time. It process input and output request in both the blocking and non-blocking manners.	The speed of the node.js web application is high as it process input and output requests in a non-blocking manner.
+6.	Security	In comparison to node.js, it has very low security.	High security for enterprise web application development.
+7.	Maintainability	Java EE is known for its great code maintainability and computation efficiency.	The main advantage of Java EE is fast development. The developer can use JavaScript on both server and client sides.
+8.	Development Process	Lengthy and relatively slower.	Fast and less complicated.
+9.	Number of enterprises applying	106,353	49,383
+10.	Use cases	TripAdvisor, GameDuell, Rezdy.	Uber, Netflix, eBay, Reddit.
+11.	Supported by	Oracle and the eclipse foundation.	Community and the Node.js foundation.
+The table which we defined above shows the main differences between Java EE and Node.js.
+
+
+
+
+
+
+
+
 
