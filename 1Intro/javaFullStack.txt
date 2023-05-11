@@ -387,6 +387,15 @@ In the above program, Java threads are implemented by creating instances of Thre
 
 
 
+Java EE v/s Node.js
+Java EE stands for Java Enterprise Edition, which is currently referred to as Jakarta EE. In the past decade, it is referred to as J2EE. Java EE provides the platform to the Java developer with enterprise features like web service and distributed computing.
+
+In order to develop server-side and network applications, the developer uses Node.js, which is an open-source and cross-platform runtime environment. Node.js is basically a combination of Runtime Environment and JavaScript Library.
+
+Java EE v/s Node.js
+Java EE comes in the category of languages, while Node.js comes in the category of frameworks. It is very complicated to choose one from Java EE and Node.js for enterprise web applications development. We recommended you break down requirements as per the business and technical needs of the application and choose one which is suitable for the requirements.
+
+Let's try to differentiate Java EE and Node.js based on some factors:
 
 
 
