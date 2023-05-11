@@ -420,5 +420,152 @@ The table which we defined above shows the main differences between Java EE and 
 
 
 
+Java Image
+Image class in Java is an abstract superclass for all the other classes used for graphical image representation.
+
+Class Declaration
+The declaration for java.awt.Image class is as following:
+
+Public abstract class Image extends Object  
+Java Image Class Fields
+Following table shows various fields of Image class.
+
+Field	Description
+protected float accelerationPriority	It prioritise for accelerating the image.
+static int SCALE_AREA_AVERAGING	It uses the area averaging image scaling algorithm.
+static int SCALE_DEFAULT	It use the default image-scaling algorithm.
+static int SCALE_FAST	It chooses an image-scaling algorithm that gives higher priority to scaling speed than smoothness of the scaled image.
+static int SCALE_REPLICATE	It uses the image scaling algorithm embodied in the ReplicateScaleFilterClass.
+static int SCALE_SMOOTH	It chooses an image-scaling algorithm that gives higher priority to image smoothness than scaling speed.
+static Object UnderfinedProperty	The UndefinedProperty object should be returned whenever a property that was not defined for a particular image is fetched.
+Image Class Methods
+Method	Description
+void flush()	It flushes all reconstructable resources being used by this image object.
+float getAccelerationPriority()	It returns the current value of the acceleration priority hint.
+ImageCapabilities getCapabilities(GraphicsConfiguration gc)	It returns an ImageCapabilities object which can be inquired as to the capabilities of this image on the specified GraphicsConfiguration.
+abstract Graphics getGraphics()	It creates a graphics context for drawing to an offscreen image.
+abstract int getHeight(ImageObserver observer)	It determines the height of the image.
+abstract Object getProperty(String name, ImageObserver observer)	It gets a property of the image by name.
+Image getScaledInstance(int width, int height, int hints)	It creates a scaled version of the image.
+abstract ImageProducer getSource()	It gets the object that produces the pixels for the image.
+abstract int getWidth(ImageObserver observer)	It determines the width of the image.
+void setAccelerationPriority(float priority)	It sets a hint for the image about how important acceleration is.
+Java Image Example
+The following program demonstrates the use of Image class in Java.
+Play
+
+Next
+Unmute
+Current TimeÂ 
+0:00
+/
+DurationÂ 
+18:10
+Â 
+Fullscreen
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+
+JavaImageDemo.java
+
+import java.awt.*;  
+import java.awt.event.*;  
+import java.awt.image.BufferedImage;  
+import java.io.*;  
+import javax.imageio.ImageIO;  
+public class JavaImageDemo   
+{  
+   /* AWT Components declaration */   
+   private Frame frame1;  
+   private Label label1;  
+   private Label statusLabel;  
+   private Panel panel1;  
+   public JavaImageDemo ()  
+ {  
+      showFrame();  
+   }  
+   /* Driver Code */  
+   public static void main(String[] args)  
+   {  
+      JavaImageDemo obj = new JavaImageDemo ();  
+      obj.showImageDemo();  
+   }  
+   /* Method to show Frame */  
+   private void showFrame()  
+   {  
+      frame1 = new Frame("Java AWT Examples");  
+      frame1.setSize(400,400);  
+      frame1.setLayout(new GridLayout(3, 1));  
+      frame1.addWindowListener(new WindowAdapter()   
+     {  
+         public void windowClosing(WindowEvent windowEvent)  
+         {  
+            System.exit(0);  
+         }          
+      });      
+      label1 = new Label();  
+      label1.setAlignment(Label.CENTER);  
+      statusLabel = new Label();          
+      statusLabel.setAlignment(Label.CENTER);  
+      statusLabel.setSize(350,100);  
+      panel1 = new Panel();  
+      panel1.setLayout(new FlowLayout());  
+      frame1.add(label1);  
+      frame1.add(panel1);  
+      frame1.add(statusLabel);  
+      frame1.setVisible(true);    
+   }  
+   /* Method to add image on the Frame */  
+   private void showImageDemo()  
+   {  
+      label1.setText("Image class Demo");   
+  
+      panel1.add(new ImgComp("Desktop/sample.jfif"));  
+      frame1.setVisible(true);    
+   }  
+   class ImgComp extends Component   
+   {  
+      BufferedImage ig;  
+      public void paint(Graphics p)   
+     {  
+         p.drawImage(ig, 0, 0, null);  
+      }  
+      public ImgComp(String filepath)   
+     {  
+         try   
+        {  
+            ig = ImageIO.read(new File(filepath));  
+         }   
+         catch (IOException ex)   
+        {  
+            ex.printStackTrace();  
+         }  
+      }  
+      /* Sets the size of the image */  
+      public Dimension getPreferredSize()  
+      {  
+         if (ig == null)   
+         {  
+            return new Dimension(120,200);  
+         }   
+         else   
+         {  
+            return new Dimension(ig.getWidth(), ig.getHeight());  
+         }  
+      }  
+   }  
+}  
+Output:
+
+Java Image
+
+
+
+
+
 
 
