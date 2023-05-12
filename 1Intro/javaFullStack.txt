@@ -621,6 +621,64 @@ Inside the foo method of derived class.
 
 
 
+Explanation: The code is simple to comprehend. There are two classes in the program. One is the base class, and another is the derived class. The derived class is being instantiated in the main method, and its foo method is invoked.
+
+However, there is a problem in the above code. The inheritance has led to the tight coupling of classes A and B. Class B knows a lot of stuff about class A. Also, there are fair chances that changes in class A might impact class B. Let's modify the above code to understand it.
+
+Suppose, there is a requirement to add a parameterized constructor containing two integer arguments in the base class. To incorporate the requirement, we have added a constructor in the base class.
+
+FileName: CouplingExample1.java
+
+// parent or base class  
+class A  
+{  
+  
+// a parameterized constructor  
+A(int x, int y)  
+{  
+      
+}  
+  
+void foo()  
+{  
+  System.out.println("Inside the foo method of base class.");    
+}  
+}  
+  
+// child or derived class  
+class B extends A  
+{  
+void foo()  
+{  
+  System.out.println("Inside the foo method of derived class.");    
+}  
+}  
+  
+public class CouplingExample1  
+{  
+  
+// main method   
+public static void main(String argvs[])   
+{  
+// creating an object of class B  
+B obj = new B();  
+obj.foo();  
+}  
+}  
+Output:
+
+/CouplingExample1.java:17: error: constructor A in class A cannot be applied to given types;
+class B extends A
+^
+  required: int,int
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+1 error
+Explanation: The output indicates that we have got an error in child class B. However, we did not touch anything in class B; still, we got the error. It is because of the inheritance, that leads to the tightly coupled structure. Ideally, such things should be avoided in a program or project.
+
+
+
+
 
 
 
