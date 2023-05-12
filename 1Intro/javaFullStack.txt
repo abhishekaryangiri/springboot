@@ -679,6 +679,56 @@ Explanation: The output indicates that we have got an error in child class B. Ho
 
 
 
+Loose Coupling Code
+Let's rewrite the above code using an interface.
+
+FileName: CouplingExample2.java
+
+
+interface Parent  
+{  
+    void foo();  
+}  
+  
+class A implements Parent  
+{  
+    // parameterized constructor  
+    A(int x, int y)  
+    {  
+          
+    }  
+      
+    public void foo()  
+    {  
+        System.out.println("In the foo method of class A.");  
+    }  
+}  
+  
+class B implements Parent  
+{  
+    public void foo()  
+    {  
+        System.out.println("In the foo method of class B.");  
+    }  
+}  
+  
+public class CouplingExample2  
+{  
+  
+// main method   
+public static void main(String argvs[])   
+{  
+// creating an object of class B  
+B obj = new B();  
+obj.foo();  
+}  
+}  
+Output:
+
+In the foo method of class B.
+
+
+
 
 
 
