@@ -572,6 +572,57 @@ One of the most key aspects of a Java project is loose coupling. The loose coupl
 
 
 
+Abstraction is the Key
+To achieve loose coupling, one should use abstract classes or interface while performing inheritance. The following examples will make the concept clearer.
+
+FileName: CouplingExample.java
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+
+
+// parent or base class  
+class A  
+{  
+void foo()  
+{  
+  System.out.println("Inside the foo method of base class.");    
+}  
+}  
+  
+// child or derived class  
+class B extends A  
+{  
+void foo()  
+{  
+  System.out.println("Inside the foo method of derived class.");    
+}  
+}  
+  
+public class CouplingExample  
+{  
+// main method   
+public static void main(String argvs[])   
+{  
+  
+// creating an object of class B  
+B obj = new B();  
+obj.foo();  
+}  
+}  
+Output:
+
+Inside the foo method of derived class.
+
+
+
+
+
+
+
 
 
 
