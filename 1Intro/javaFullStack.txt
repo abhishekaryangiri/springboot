@@ -945,6 +945,81 @@ The computer is using the Lenovo keyboard.
 
 
 
+Explanation: Now, the computer works for the Lenovo keyboard. However, the keyboardUsed() method is tightly coupled with Lenovo as well as the Dell keyboard. Thus, any other variety of keyboard is not considered by the keyboardUsed() method. Hence, we ended up with the same problem. Also, it is not good to add a method for a specific keyboard in the class Computer.
+
+Think what will happen if we have 50 varieties of keyboards? Handling 50 methods is certainly a tedious task. Also, one has to write a lot of code to add 50 methods. Also, for testing purposes, we have to test all of the added 50 methods, that will be time-consuming.
+
+To avoid such problems, we have to make the method keyboardUsed() loosely coupled with the keyboard. To achieve the same, our keyboardUsed() method should depend upon the interface (remember! Abstraction is the key). Observe the modification done in the following code.
+
+FileName: CouplingExample6.java
+
+interface Keyboard  
+{  
+String display();  
+}  
+  
+class DellKeyboard implements Keyboard  
+{  
+  
+String info;  
+public String display()  
+{  
+this.info = "the Dell keyboard.";  
+return this.info;  
+}  
+}  
+  
+class LenovoKeyboard implements Keyboard  
+{  
+  
+String info;  
+public String display()  
+{  
+this.info = "the Lenovo keyboard.";  
+return this.info;  
+}  
+}  
+  
+class Computer  
+{      
+// the method is now dependent on the interface Keyboard  
+public void keyboardUsed(Keyboard k)  
+{  
+System.out.println("The computer is using " + k.display());  
+}  
+  
+}  
+  
+public class CouplingExample6  
+{  
+  
+// main method   
+public static void main(String argvs[])   
+{  
+// creating an object of the class Computer  
+Computer obj = new Computer();  
+  
+// creating an object of the class LenovoKeyboard  
+LenovoKeyboard lk = new LenovoKeyboard();  
+  
+obj.keyboardUsed(lk);  
+  
+// creating an object of the class DellKeyboard  
+DellKeyboard dk = new DellKeyboard();  
+  
+obj.keyboardUsed(dk);  
+  
+}  
+}  
+Output:
+
+The computer is using the Lenovo keyboard.
+The computer is using the Dell keyboard.
+
+
+
+
+
 
 
 
