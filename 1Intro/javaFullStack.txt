@@ -872,6 +872,77 @@ obj.keyboardUsed(lk);
 
 
 
+Practically speaking, a computer should work perfectly with Dell or Lenovo keyboard. However, this is not the case in our example. To make the computer work with the Lenovo keyboard, we have to add another method in the class Computer.
+
+FileName: CouplingExample5.java
+
+interface Keyboard  
+{  
+String display();  
+}  
+  
+class DellKeyboard implements Keyboard  
+{  
+  
+String info;  
+  
+public String display()  
+{  
+this.info = "the Dell keyboard.";  
+return this.info;  
+}  
+}  
+  
+class LenovoKeyboard implements Keyboard  
+{  
+  
+String info;  
+  
+public String display()  
+{  
+this.info = "the Lenovo keyboard.";  
+return this.info;  
+}  
+}  
+  
+class Computer  
+{  
+// the method only handles keyboard made by the company Dell  
+public void keyboardUsed(DellKeyboard dk)  
+{  
+System.out.println("The computer is using " + dk.display());  
+}  
+  
+// the method only handles keyboard made by the company Lenovo  
+public void keyboardUsed(LenovoKeyboard dk)  
+{  
+System.out.println("The computer is using " + dk.display());  
+}  
+  
+}  
+  
+public class CouplingExample5  
+{  
+  
+// main method   
+public static void main(String argvs[])   
+{  
+// creating an object of the class Computer  
+Computer obj = new Computer();  
+  
+// creating an object of the class LenovoKeyboard  
+LenovoKeyboard lk = new LenovoKeyboard();  
+  
+obj.keyboardUsed(lk);  
+  
+}  
+}  
+Output:
+
+The computer is using the Lenovo keyboard.
+
+
+
 
 
 
