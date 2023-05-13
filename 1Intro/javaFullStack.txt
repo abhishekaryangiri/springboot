@@ -806,6 +806,73 @@ The computer is using the Dell keyboard.
 
 
 
+Explanation: In the above code, the keyboardUsed() method is tightly coupled with the Dell keyboard. It means any other type of keyboard is not entertained by the class Computer. If we use the Lenovo keyboard, we get a compilation error.
+
+FileName: CouplingExample4.java
+
+
+interface Keyboard  
+{  
+String display();  
+}  
+  
+class DellKeyboard implements Keyboard  
+{  
+  
+String info;  
+  
+public String display()  
+{  
+this.info = "the Dell keyboard.";  
+return this.info;  
+}  
+}  
+  
+class LenovoKeyboard implements Keyboard  
+{  
+  
+String info;  
+  
+public String display()  
+{  
+this.info = "the Lenovo keyboard.";  
+return this.info;  
+}  
+}  
+  
+class Computer  
+{  
+// the method only handles keyboard made by the company Dell  
+public void keyboardUsed(DellKeyboard dk)  
+{  
+System.out.println("The computer is using " + dk.display());  
+}  
+}  
+  
+public class CouplingExample4  
+{  
+  
+// main method   
+public static void main(String argvs[])   
+{  
+// creating an object of the class Computer  
+Computer obj = new Computer();  
+  
+// creating an object of the class LenovoKeyboard  
+LenovoKeyboard lk = new LenovoKeyboard();  
+  
+obj.keyboardUsed(lk);  
+  
+}  
+}  
+Output:
+
+/CouplingExample3.java:50: error: incompatible types: LenovoKeyboard cannot be converted to DellKeyboard
+obj.keyboardUsed(lk);
+
+
+
+
 
 
 
