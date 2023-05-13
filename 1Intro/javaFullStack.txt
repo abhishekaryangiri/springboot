@@ -1019,6 +1019,25 @@ The computer is using the Dell keyboard.
 
 
 
+Explanation: We see that one method is handling keyboards manufactured by the company Dell or Lenovo. It is because the only one method keyboardUsed() of the class Computer is not tightly attached with the class DellKeyboard or LenovoKeyboard. The keyboardUsed() method is dependent on the abstraction (interface Keyboard). Therefore, the method is able to handle any kind of keyboard.
+
+Thus, even if we add 50 more types of keyboard, the keyboardUsed() method is able to handle it. Hence, we have to write a lesser amount of code as compared to the previous code.
+
+Testing the above code is also easier as we have only one method in the class Computer. Previously, we have to test all the methods of class Computer for every type of keyboard.
+
+Also, if in the future the Dell company stops the manufacturing of the keyboard, then we can remove the DellKeboard class. Nothing has to be changed in the class Computer. However, in the previous example, we have to remove the method keyboardUsed(DellKeyboard dk) from the class Computer.
+
+We can observe that if we add something or remove something, we have to make more changes in the previous code and lesser changes to the above code. Thus, it is evident that why one should strive for loosely coupled structures.
+
+
+Loose Coupling in Day-to-Day Life
+There are many instances in our day-to-day life where the loose coupling is used. A few of those instances are mentioned below.
+
+Clock and its Battery: We all have clocks in our homes. The clock needs a battery to run. Note that the clock is loosely coupled with the battery used, i.e., the clock has no issue if we use a Duracell battery, or a Nippo battery, or an Eveready battery, or a battery of any other company.
+Mobile and its charger: The charger of mobile is not tightly coupled with the mobile. For example, a Samsung mobile can be charged with a Redmi charger, and vice-versa.
+Computer and Mouse: A computer from a vendor works well with the mouse made by some other vendor. Thus, we can say that a computer and its mouse are loosely coupled.
+Bulb holder and bulb: The holder of a bulb can hold any type of bulb. It does not depend on the type of bulb used. For example, an LED or filament bulb can be put in the same bulb holder.
+
 
 
 
