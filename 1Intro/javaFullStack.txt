@@ -736,6 +736,77 @@ In the above code, class A and class B are loosely coupled as they are not direc
 
 
 
+Benefits of loose coupling
+Loose coupling allows making changes in the code easily.
+Testing of loosely coupled structures is easier than the tightly coupled structure.
+Less amount of code is required to make changes in a loosely coupled structure than in a tightly coupled structure.
+Let's understand it with the help of an example.
+
+FileName: CouplingExample3.java
+
+
+interface Keyboard  
+{  
+String display();  
+}  
+  
+class DellKeyboard implements Keyboard  
+{  
+  
+String info;  
+  
+public String display()  
+{  
+this.info = "the Dell keyboard.";  
+return this.info;  
+}  
+}  
+  
+class LenovoKeyboard implements Keyboard  
+{  
+  
+String info;  
+  
+public String display()  
+{  
+this.info = "the Lenovo keyboard.";  
+return this.info;  
+}  
+}  
+  
+class Computer  
+{  
+// the method only handles keyboard made by the company Dell  
+public void keyboardUsed(DellKeyboard dk)  
+{  
+System.out.println("The computer is using " + dk.display());  
+}  
+}  
+  
+public class CouplingExample3  
+{  
+  
+// main method   
+public static void main(String argvs[])   
+{  
+// creating an object of the class Computer  
+Computer obj = new Computer();  
+  
+// creating an object of the class DellKeyboard  
+DellKeyboard dk = new DellKeyboard();  
+  
+obj. keyboardUsed(dk);  
+  
+}  
+}  
+Output:
+
+The computer is using the Dell keyboard.
+
+
+
+
+
 
 
 
