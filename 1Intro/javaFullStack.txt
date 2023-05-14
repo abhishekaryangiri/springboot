@@ -1080,6 +1080,28 @@ sound is another library that is used for media content.
 
 
 
+Apache Commons
+Java Top 10 Libraries
+Apache Commons is another library or can say it is an open-source project which focuses on all aspects of reusable Java components. It has three parts such as Commons Proper, Commons Sandbox, and Commons Dormant.
+
+The Commons Proper contains reusable Java components.
+The Common Sandbox is basically a workspace to develop java components.
+The Commons Dormant is basically a repository that contains the inactive components
+The Apache Commons has the following features:
+
+Java Classes.
+Mathematics and Statistics components.
+I/O utilities.
+Logging utilities.
+JDBC helper.
+Java Collections framework extension.
+
+
+
+
+
+
+
 
 
 
