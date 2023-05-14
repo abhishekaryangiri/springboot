@@ -1064,6 +1064,20 @@ Let's understand each of the libraries one by one:
 
 
 
+Java Standard Library
+Java Top 10 Libraries
+Java Standard Library is one of the most popular and used libraries, which contains a list of libraries to make work easier. These libraries are called at run time by JVM(Java Virtual Machine). It provides the following libraries:
+
+We cannot write any program in Java without String, Enum, Double, etc. The lang library provides everything to us for writing code in Java.
+In order to use data structures and collections in Java, we need util class because it contains the definition of all data structures and collections.
+In order to work with pipes and to read data from files, we need the io library. It allows developers to use files in their Java applications.
+The nio is another library that stands for non-blocking I/O and is an alternative to java.io library. By using it, we can get the advantage of intensive use of I/O operations.
+The math library is one of the libraries used for mathematical calculation, such as the sum of BigInteger or BigDecimal.
+In order to work with networks, connections, and sockets, java.net provides all the required classes for it. The net library is mostly used for developing network applications.
+The swing and java.awt are two libraries used to create GUI(Graphical User Interface). The java.awt is available in the older version of Java.
+sound is another library that is used for media content.
+
+
 
 
 
