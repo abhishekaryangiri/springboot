@@ -1105,6 +1105,13 @@ In Java, we need to work with data of different types of formats. In software de
 Jackson library is basically a suite of data processing libraries. The Jackson JSON library is a parser/generator library for transferring a .class file into a JSON format or JSON string. The Java Jackson library provides data binding and annotations, which can convert POJO objects into data or generate POJO from data.
 
 
+Maven Libraries
+Java Top 10 Libraries
+Just like Apache Commons, Maven is also provided by the Apache. It is a comprehensive tool that is based on the project object model. By using Maven, we can build java web and desktop applications. Maven is a repository that manages configurations, documentation, build configuration, and dependency by specifying them in the pom.xml file.
+
+Maven helps us to add a set of jar files in each project, create the right project structure and build and deploy the project. In order to learn more about Maven, visit https://www.javatpoint.com/maven-tutorial.
+
+
 
 
 
