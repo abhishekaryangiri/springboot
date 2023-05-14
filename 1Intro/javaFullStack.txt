@@ -1039,6 +1039,30 @@ Computer and Mouse: A computer from a vendor works well with the mouse made by s
 Bulb holder and bulb: The holder of a bulb can hold any type of bulb. It does not depend on the type of bulb used. For example, an LED or filament bulb can be put in the same bulb holder.
 
 
+Java Top 10 Libraries
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+
+Java is one of the most popular programming languages. Java provides a rich set of libraries, and its standard Java library is a very powerful that contains libraries such as java.lang, java.util, and java.math, etc. Java provides more than thousands of libraries except standard libraries. Some of the most useful and popular libraries are as follows:
+
+Java Standard libraries
+Apache Commons
+Jackson
+Maven
+Google-json
+Log5j and Slf4j
+JUnit
+Google Guava
+JAXB
+HTTP Libraries
+Let's understand each of the libraries one by one:
+
+
+
 
 
 
