@@ -1123,6 +1123,16 @@ It provides methods such as toJson() and fromJson() for converting objects into 
 
 
 
+Log5j and Slf4j
+Java Top 10 Libraries
+Log5j is one of the light-weighted and fast logging libraries in Java. This library is available in Java5 or higher versions. Log5j is an advanced version of Log4j. In terms of style, it is similar to the Log4j, but it uses the varargs feature of Java which Log4j doesn't use. The varargs feature allows us to pass any number of arguments to any logging method
+
+
+
+
+
+
+
 
 
 
