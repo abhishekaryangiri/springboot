@@ -1131,6 +1131,15 @@ Log5j is one of the light-weighted and fast logging libraries in Java. This libr
 
 
 
+Log5j also provides methods such as debugf, errorf, fatalf, logf, and tracef, which allow dynamic formatting of logging methods. These methods are very efficient when messages are not logged.
+
+Java Top 10 Libraries
+Slf4j stands for Simple Logging Facade for Java. It works as a simple facade or abstraction for various logging frameworks, which allows the end-user to plug in the desired logging framework at deployment time. In order to migrate the Java source code with Slf4j, there are several migration tools available in the market which easily migrate our projects to use the Slf4j API.
+
+
+
+
+
 
 
 
