@@ -1144,6 +1144,12 @@ Junit is one of the most important Java frameworks for writing unit tests. Nobod
 
 
 
+Google Guava
+Google Guava is another open-source project which Google initially developed, and many engineers from outside Google contributed. It contains all the essential collections, utilities, concurrency, string manipulation, and many more. In comparison to the Apache Commons library, it is very simple and has a very good design. Google Guava plays an important role in creating shared library and utility classes. The main features of Google Guava are I/O utilities, string utilities, hashing, the extension of the Java collection framework, and caching.
+
+
+
+
 
 
 
