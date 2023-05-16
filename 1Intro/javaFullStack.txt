@@ -1168,6 +1168,25 @@ JDK 9 version provides support of HTTP 2.0. We can also use Apache libraries suc
 
 
 
+Method Hiding in Java
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+
+In this section, we will discuss what is method hiding in Java, method hiding factors (MHF), and the differences between method hiding and method overriding. Also, implement the method hiding concept in a Java program.
+
+To understand the method hiding concept in Java, first, we will understand the method overriding. Because the method hiding concept is very similar to the method overriding.
+
+What is method overriding?
+Method overriding means subclass had defined an instance method with the same signature and return type as the instance method in the superclass. In such a case, method of the superclass is overridden (replaced) by the subclass.
+
+
+
+
+
 
 
 
