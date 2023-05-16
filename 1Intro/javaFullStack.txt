@@ -1150,6 +1150,13 @@ Google Guava is another open-source project which Google initially developed, an
 
 
 
+JAXB library
+Java Top 10 Libraries
+Just like JSON, XML is another most important data format used for storage, validation, and transportation of data. In order to work with XML data in Java8, the Java Standard library has support for XML. In Java9, the XML support is removed from the Java Standard library and moved into a new library called the JAXB library. The main features of JAXB are annotation-based Java-to-XML data binding, validation, and support for all W3C XML Schema features.
+
+
+
+
 
 
 
