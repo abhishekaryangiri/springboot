@@ -1158,6 +1158,16 @@ Just like JSON, XML is another most important data format used for storage, vali
 
 
 
+HTTP Libraries
+Java Top 10 Libraries
+JDK doesn't support HTTP requests. In order to implement an HTTP connection, we have to use classes available in the java.net package. Using third-party libraries such as Apache HttpClient and HttpCore is not so easy to use.
+
+JDK 9 version provides support of HTTP 2.0. We can also use Apache libraries such as HttpClient, HttpCode, and HttpAsyncClient. We suggest all the developers to get complete knowledge of these libraries before using them in the code.
+
+
+
+
+
 
 
 
