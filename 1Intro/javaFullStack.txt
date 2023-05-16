@@ -1185,6 +1185,12 @@ Method overriding means subclass had defined an instance method with the same si
 
 
 
+Methods in Static Context
+Static methods are bonded during compile time using types of reference variables not object. We know that static methods are accessed by using the class name rather than an object. Note that the static method can be overloaded, but cannot be overridden in Java
+
+
+
+
 
 
 
