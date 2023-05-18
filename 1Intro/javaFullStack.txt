@@ -1256,6 +1256,21 @@ We observe that the method of the superclass is hidden by the subclass.
 
 
 
+Method Hiding Vs. Method Overriding
+Hiding a static method of a superclass looks like overriding an instance method of a superclass. The main difference can be seen at runtime in the following scenario.
+
+When we override an instance method, we get the benefit of run-time polymorphism.
+When we override a static method, we do not get the benefit of run-time polymorphism.
+Method Hiding	Method Overriding
+Both methods must be static.	Both methods must be non-static.
+Method resolution takes care by the compiler based on the reference type.	Method resolution takes care by JVM based on runtime object.
+It is considered as compile-time polymorphism or static polymorphism or early binding.	It is considered as runtime polymorphism or dynamic polymorphism or late binding.
+Let's understand the method handing and overriding practically.
+
+
+
+
+
 
 
 
