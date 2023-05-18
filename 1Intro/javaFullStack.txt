@@ -1340,6 +1340,10 @@ A tuple is a data structure that can hold objects of different types. These obje
 
 
 
+What is a tuple?
+In general, a tuple is an ordered collection of objects. In tuple data is stored as an object in a separate byte array. It has comma-separated values enclosed in a pair of square brackets []. Tuples are immutable, unlike Lists data structure. A tuple can hold multiple tuples. It can also be considered as an anonymous object.
+
+
 
 
 
