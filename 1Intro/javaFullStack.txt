@@ -1317,6 +1317,30 @@ Subclass Static Method	Generates a compile-time error	Hides the method
 
 
 
+Java Tuple
+Play
+
+Next
+Unmute
+Current TimeÂ 
+0:00
+/
+DurationÂ 
+18:10
+Â 
+Fullscreen
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+A tuple is a data structure that can hold objects of different types. These objects are not connected to each other but have meaning when we consider them collectively. In this section, we discuss what is tuple, features, size, and operations of tuples. Also, we will discuss the tuple implementation in Java.
+
+
+
+
+
 
 
 
