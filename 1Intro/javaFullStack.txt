@@ -1291,6 +1291,31 @@ In the above code snippet, to achieve the method hiding, we need to make the met
 
 
 
+//parent class  
+class Demo  
+{  
+public static void method1()  
+{  
+//statements  
+}  
+}  
+//child class  
+class Sample extends Demo  
+{  
+public static void method1()  
+{  
+//statements  
+}  
+}  
+The following table describes what happens when we define a method with the same signature as in superclass.
+
+Defining a Method with the Same Signature as a Superclass's Method
+Superclass Instance Method	Superclass Static Method
+Subclass Instance Method	Overrides the method	Generates a compile-time error
+Subclass Static Method	Generates a compile-time error	Hides the method
+
+
+
 
 
 
