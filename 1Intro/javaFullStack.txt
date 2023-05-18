@@ -1269,6 +1269,28 @@ Let's understand the method handing and overriding practically.
 
 
 
+//parent class  
+class Demo  
+{  
+public void method1()  
+{  
+//statements  
+}  
+}  
+//child class  
+class Sample extends Demo  
+{  
+public void method1()  
+{  
+//statements  
+}  
+}  
+The above code snippet does not perform the method hiding because the methods of both the classes are non-static, hence they perform method overriding.
+
+In the above code snippet, to achieve the method hiding, we need to make the methods static.
+
+
+
 
 
 
