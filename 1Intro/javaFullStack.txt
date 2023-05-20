@@ -1369,6 +1369,20 @@ Let's see some other examples of tuples.
 
 
 
+Tuple in Java
+In Java, a tuple is a generic data structure that treats each element as an object, and these objects stores in a separate byte array. In other words, we can also say that tuple is an ordered collection of objects of different types.
+
+The functionality of a tuple can be implemented using the List and Array data structure but these data structures do not hold different types of data types by design. Hence, it is clear that heterogeneous tuple using a standard data structure (List/ Array) is not possible in Java. Since we required tuple data structure to fulfill the requirement of holding homogeneous data structure.
+
+Note that tuple data structure is not present in Java programming, by default. But we can implement the tuple data structure by using the third-party library named javatuples.
+
+Before moving to the implementation, first, we will download the javatuples.jar file. And add this file to the path of the project.
+
+We can also use the following dependency in pom.xml file to implement the tuples data structure in Java.
+
+
+
+
 
 
 
