@@ -1391,6 +1391,17 @@ Let's implement a tuple and create a simple Java tuple program.
 
 
 
+Javatuples Library
+The javatuples library has the tuple classes that are corresponding to the size of a tuple. Tuples may be different in size. A tuple may hold a maximum of 10 elements. The implementation of each tuple is different. The class hierarchy is as follows.
+
+Java.lang.Object  
+  ↳ org.javatuples.Tuple  
+      ↳ org.javatuples.ClassName<>  
+      
+      
+      
+      
+
 
 
 
