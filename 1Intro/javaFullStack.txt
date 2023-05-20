@@ -1345,6 +1345,15 @@ In general, a tuple is an ordered collection of objects. In tuple data is stored
 
 
 
+Features of Tuple
+Tuple has the following features:
+
+It is typesafe, iterable, immutable, and serializable.
+It implements the toString(), equals(), and the hashCode()
+It also implements the Comparable (Tuple implements Comparable<Tuple>)
+
+
+
 
 
 
