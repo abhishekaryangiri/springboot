@@ -1381,6 +1381,14 @@ Before moving to the implementation, first, we will download the javatuples.jar 
 We can also use the following dependency in pom.xml file to implement the tuples data structure in Java.
 
 
+<dependency>  
+<groupId>org.javatuples</groupId>  
+<artifactId>javatuples</artifactId>  
+<version>1.2</version>  
+</dependency>   
+Let's implement a tuple and create a simple Java tuple program.
+
+
 
 
 
