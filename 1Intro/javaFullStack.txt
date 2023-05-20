@@ -1355,6 +1355,22 @@ It also implements the Comparable (Tuple implements Comparable<Tuple>)
 
 
 
+Tuple Example
+Let's consider the following example.
+
+["Sophia", "Female", 22, "Marketing Manager"]  
+The above tuple is a quartet tuple because it has four elements (objects). We observe that each object is of a different type. But when we consider it collectively, it has a specific meaning. The above tuple represents the data of an employee such as name, gender, age, and designation.
+
+Let's see some other examples of tuples.
+
+["Java", "Object-oriented", 14]  
+["John", "Wick" 21, "USA", false, "johnwick@gmail.com"]  
+[3, "Samsung", "Galaxy S2", 37000.00]  
+
+
+
+
+
 
 
 
