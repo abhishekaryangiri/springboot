@@ -1452,6 +1452,11 @@ Serializable
 
 
 
+
+Implementation of Tuple
+The implementation of a tuple in Java is very easy. We have to create an instance of tuple class that corresponds to size.
+
+
       
       
       
