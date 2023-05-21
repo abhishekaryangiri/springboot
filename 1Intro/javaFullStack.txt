@@ -1423,6 +1423,21 @@ toList()	public final java.util.List<java.lang.Object> toList()	It converts the 
 
 
 
+Direct Known Subclasses
+Size of Tuple	Tuple Class Name	Example
+One Element	Unit	Unit<1>
+Two Elements	Pair	Pair<1,2>
+Three Elements	Triplet	Triplet<1,2,3>
+Four Elements	Quartet	Quartet<1,2,3,4>
+Five Elements	Quintet	Quintet<1,2,3,4,5>
+Six Elements	Sextet	Sextet<1,2,3,4,5,6>
+Seven Elements	Septet	Septet<1,2,3,4,5,6,7>
+Eight Elements	Octet	Octet<1,2,3,4,5,6,7,8>
+Nine Elements	Ennead	Ennead<1,2,3,4,5,6,7,8,9>
+Ten Elements	Decade	Decade<1,2,3,4,5,6,7,8,9,10>
+
+
+
 
       
       
