@@ -1439,6 +1439,19 @@ Ten Elements	Decade	Decade<1,2,3,4,5,6,7,8,9,10>
 
 
 
+
+Besides the above classes, there are two additional classes provided by javatuples library i.e. KeyValue<A, B> and LabelValue<A, B>. These two classes are similar to the Pair class and provide the same functionality but in different semantics.
+
+Each tuple class implements the following three interfaces:
+
+Iterable
+Comparable
+Serializable
+
+
+
+
+
       
       
       
