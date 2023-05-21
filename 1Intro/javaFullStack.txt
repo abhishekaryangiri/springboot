@@ -1400,6 +1400,14 @@ Java.lang.Object
       
       
       
+      Java Tuple Class
+The Tuple is an abstract base class for all the tuple classes that belongs to org.javatuples package. All the methods of the tuple class are public and final. The following table summarizes the methods of the tuple class. It implements Iterable and Serializable interfaces.
+
+
+
+      
+      
+      
       
 
 
