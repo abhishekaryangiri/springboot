@@ -1405,6 +1405,25 @@ The Tuple is an abstract base class for all the tuple classes that belongs to or
 
 
 
+
+Method	Syntax	Description
+contains()	public final boolean contains(java.lang.Object value)	It checks if the tuple has specific element or not.
+containsAll()	public final boolean containsAll(java.util.Collection<?> collection)	It returns true if this tuple contains all of the elements of the specified collection (List/Array).
+equals()	public final boolean equals(java.lang.Object obj)	Overrides the equals() method of the Object class.
+getSize()	public abstract int getSize()	It returns the size of tuple.
+getValue()	public final java.lang.Object getValue(int pos)	Get the value at a specific position in the tuple. This method has to return object, so using it you will lose the type-safety you get with the getValueX() methods.
+hashCode()	public final int hashCode()	It returns a hash code for the string. It overrides the hashCode() method of the Object class.
+indexOf()	public final int indexOf(java.lang.Object value)	It returns the index within this string of the first occurrence of the specified substring.
+iterator()	public final java.util.Iterator<java.lang.Object> iterator()	It returns an iterator over the elements in this tuple in proper sequence.
+lastIndexOf()	public final int lastIndexOf(java.lang.Object value)	It returns the index within this string of the last occurrence of the specified substring.
+toArray()	public final java.lang.Object[] toArray()	It converts the tuple into an array.
+toString()	public final java.lang.String toString()	It returns a string representation of the object. Overrides the toString() method of the Object class.
+toList()	public final java.util.List<java.lang.Object> toList()	It converts the tuple into a list.
+
+
+
+
+
       
       
       
