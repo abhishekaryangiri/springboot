@@ -1546,6 +1546,62 @@ Output:
 
 
 
+
+[91237, Mac Book Air, 88490.0, 8-Core CPU, 4]
+By Using Collection
+The javatuples library allows us to create a tuple from the collection by using the fromCollection() method. It also allows us to create a tuple from an array by using the fromArray() method. Note that the collection/ array must have the same type and values as the tuple.
+
+The collection/array must have the same type as the Tuple and the number of values in the collection/ array must match the Tuple class.
+
+Syntax:
+
+ClassName <type-1, type-2, …., type-n> object = ClassName.fromCollection(list);  
+ClassName <type1, type2…., type-n> object = ClassName.fromArray(array);  
+Example:
+
+Octet<String, String, String, String, String, String, String, String> p1 = Octet.fromCollection(list);  
+Sextet<String, String, String,String, String, String> p2 = Sextet.fromArray(arr);  
+CreateTupleExample3.java
+
+import java.util.ArrayList;  
+import java.util.List;  
+import org.javatuples.Sextet;  
+import org.javatuples.Octet;  
+class CreateTupleExample3   
+{  
+public static void main(String args[])  
+{  
+//creating a list  
+List<String> list = new ArrayList<String>();  
+//adding elements to the list  
+list.add("C");  
+list.add("C++");  
+list.add("Java");  
+list.add("Python");  
+list.add("Scala");  
+list.add("Ruby");  
+list.add("PHP");  
+list.add("COBOL");  
+//creating an object of Pair class and passing the list  
+Octet<String, String, String, String, String, String, String, String> p1 = Octet.fromCollection(list);  
+//creating an Array  
+String[] arr = {"One", "Two", "Three", "Four", "Five", "Six"};  
+//creating an object of the Pair class and invoking the fromArray() method   
+Sextet<String, String, String, String, String, String> p2 = Sextet.fromArray(arr);  
+//prints the tuple created using list  
+System.out.println(p1);  
+//prints the tuple using Array  
+System.out.println(p2);  
+}  
+}  
+Output:
+
+[C, C++, Java, Python, Scala, Ruby, PHP, COBOL]
+[One, Two, Three, Four, Five, Six]
+
+
+
+
       
       
       
