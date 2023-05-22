@@ -1457,6 +1457,28 @@ Implementation of Tuple
 The implementation of a tuple in Java is very easy. We have to create an instance of tuple class that corresponds to size.
 
 
+
+
+TupleExample.java
+
+import org.javatuples.Quartet;  
+public class TupleExample   
+{  
+public static void main(String args[])   
+{  
+//create a pair tuple from the constructor  
+Quartet<String, String, Integer, String> quartet = new Quartet<String, String, Integer, String >("Sophia", "Female", 22, "Marketing Manager");  
+//print the tuples objects  
+System.out.println("The details of the employee are: " + quartet);  
+}  
+}  
+Output:
+
+The details of the employee are: [Sophia, Female, 22, Marketing Manager]
+
+
+
+
       
       
       
