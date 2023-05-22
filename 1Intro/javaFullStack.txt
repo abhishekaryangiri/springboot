@@ -1518,6 +1518,34 @@ Pair<String, Double> pair = Pair.with("iPhone 12", 112000.00);
 
 
 
+By Using Constructor
+In this case, we create a constructor of the class, according to requirement.
+
+
+Syntax:
+
+ClassName<type-1, type-2, ……, type-n> object = new ClassName<type-1, type-2, ……, type-n> (value-1, value-2, ……., value-n);  
+Example:
+
+Quintet <Integer, String, Double, String, Integer> quintet = new Quintet< Integer, String, Double, String, Integer> (91237, "Mac Book Air", 88490.00, "8-Core CPU", 4);  
+Let's create a Java program to create a tuple using constructor.
+
+CreateTupleExample2.java
+
+import org.javatuples.Quintet;  
+class CreateTupleExample1  
+{  
+public static void main(String args[])  
+{  
+Quintet <Integer, String, Double, String, Integer> quintet = new Quintet<Integer, String, Double, String, Integer> (91237, "Mac Book Air", 88490.00, "8-Core CPU", 4);  
+System.out.println(quintet);  
+}  
+}  
+Output:
+
+
+
+
       
       
       
