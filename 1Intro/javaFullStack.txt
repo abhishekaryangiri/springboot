@@ -1659,6 +1659,233 @@ Output:
 
 
 
+Get values
+The javatuples library also allows us to fetch values from the tuple at the specified index by using the getValueX() method. Where X denotes the index value of the object. Indexing starts from 0.
+
+Example:
+
+Pair<type-1, type-2> pair = new Pair<type-1, type-2>(value-1, value-2);  
+type1 val1 = pair.getValue0();  
+GetValueExample.java
+
+import org.javatuples.Pair;  
+class GetTupleValue  
+{  
+public static void main(String args[])  
+{  
+//creating a tuple  
+Pair<Integer, String> pair = Pair.with(12, "Andrew");  
+//getting values at index 1   
+System.out.println(pair.getValue1());  
+}  
+}  
+Output:
+
+[Andrew]
+Set values
+As we discussed above tuples are immutable. Hence, they cannot be modified once they are created. To overcome the problem, javatuples library provides the setValueX() method. Where X is the index value at which we want to set the specific value. The method creates a copy of the tuple with the newly added value at the specified index and returns the same tuple.
+
+Example:
+
+Pair<type-1, type-2> pair = new Pair<type-1, type-2>(value-1, value-2);  
+type1 val1 = pair.getValue0();  
+SetValueExample.java
+
+import org.javatuples.Pair;  
+class SetTupleValue   
+{  
+public static void main(String args[])  
+{  
+//creating a tuple    
+Pair<Integer, Integer> p1 = Pair.with(67, 69);  
+//setting tuple value at index 1  
+Pair<Integer, Integer> p2 = p1.setAt1(68);  
+System.out.println(p2);  
+}  
+}  
+Output:
+
+[67, 68]
+Adding a Value
+There are two ways to add values in a tuple:
+
+At the end of the tuple
+At specific Index
+At the end of the Tuple
+The javatuples library provides the add() method to add objects to the tuple. It adds the object at the end of the tuple and returns a new tuple by matching the number of elements.
+
+Suppose, we have a tuple having two elements and we want to add another element to the tuple. In such a case, the Pair tuple will not support the third element. Therefore, when we add an element to a Pair tuple, it gets converted into a Triplet tuple. Let's see an example.
+
+AddElementInTuple.java
+
+import org.javatuples.Pair;  
+import org.javatuples.Triplet;  
+public class AddElementInTuple   
+{  
+public static void main(String args[])  
+{     
+Pair<String, Integer> pair = Pair.with("Jack", 46);  
+Triplet<String, Integer, String> triplet = pair.add("Finance Professional");  
+System.out.println(pair);  
+System.out.println(triplet);  
+}  
+}  
+Output:
+
+[Jack, 46]
+[Jack, 46, Finance Professional]
+We can also add one tuple to another tuple. It increases the number of elements in the newly generated tuple. Hence, it returns the type of tuple based on the number of elements present after addition.
+
+AddTuplesExample.java
+
+
+import org.javatuples.Quartet;  
+import org.javatuples.Septet;  
+import org.javatuples.Triplet;  
+public class AddTuplesExample   
+{  
+public static void main(String args[])  
+{  
+//creating a tuple with three elements    
+Triplet<String, String, String> triplet = Triplet.with("Mango", "Grapes", "Papaya");  
+//creating an object of quartet tuple and adding an elements at index-1 in triplet tuple      
+Quartet<String, String, String, String> quartet = triplet.addAt1("Banana");  
+//adding quartet and triplet tuple we get a septet tuple i.e. 3+4=7   
+//the following statement can be written as Septet septet = quartet.add(triplet);     
+Septet<String, String, String, String, String, String, String> septet = quartet.add(triplet);     
+System.out.println(triplet);  
+System.out.println(quartet);  
+System.out.println(septet);  
+}  
+}  
+Output:
+
+[Mango, Grapes, Papaya]
+[Mango, Banana, Grapes, Papaya]
+[Mango, Banana, Grapes, Papaya, Mango, Grapes, Papaya]
+At Specified Index
+By default, new elements are added at the end of the tuple. But we can add elements at the specified index by using the addX() method.
+
+AddAtIndexExample.java
+
+import org.javatuples.Quartet;  
+import org.javatuples.Triplet;  
+public class AddAtIndexExample   
+{  
+public static void main(String args[])  
+{     
+//creating a tuple with three elements    
+Triplet<String, String, String> triplet = Triplet.with("MCA", "M.Sc.", "MBBS");  
+//creating an object of quartet tuple and adding an element at index-2 in triplet tuple   
+Quartet<String, String, String, String> quartet = triplet.addAt2("M.Tech");  
+System.out.println(triplet);  
+System.out.println(quartet);  
+}  
+}  
+Output:
+
+[MCA, M.Sc., MBBS]
+[MCA, M.Sc., M.Tech, MBBS]
+Searching an Element
+We can also search for an element that resides in the tuple. For searching javatuples library provides the contains() method of the Tuple class. It returns a Boolean value true if an element is present, else returns false. Let's see an example.
+
+SearchingElementExample.java
+
+import org.javatuples.Pair;  
+class SearchingElementExample  
+{  
+public static void main(String args[])  
+{  
+Pair<Integer, String> pair = Pair.with(34, "Jack");  
+//returns true because Jack is present in tuple  
+boolean res1 = pair.contains("Jack");  
+//returns false because Andrew is not present in tuple   
+boolean res2 = pair.contains("Andrew");  
+System.out.println(res1);  
+System.out.println(res2);  
+}  
+}  
+Output:
+
+true
+false
+Convert Tuple to Collection or Array
+Each tuple class has asList() and toArray() methods that returns List and Array, respectively. Let's see an example.
+
+TupleToCollection.java
+
+import java.util.Arrays;  
+import java.util.List;  
+import org.javatuples.Quartet;  
+public class TupleToCollection   
+{  
+public static void main(String args[])  
+{  
+//Convert to list  
+Quartet<String, Integer, String, Double> quartet = Quartet.with("Dog", 12,"German Shepherd", 23.89);  
+//converts to list  
+List<Object> list = quartet.toList();  
+//prints list  
+System.out.println(list);  
+//Converts to array  
+Object[] quartletArr = quartet.toArray();  
+//prints array  
+System.out.println(Arrays.toString(quartletArr));     
+}  
+}  
+Output:
+
+[Dog, 12, German Shepherd, 23.89]
+[Dog, 12, German Shepherd, 23.89]
+Note that tuple can contain heterogeneous types so the resulting type will be of List<Object> or Object[] accordingly.
+
+Iteration Over Tuple
+All the tuple classes implement the Iterable interface. So, we can iterate a tuple in the same way as collections or arrays.
+
+IterateTuple.java
+
+import org.javatuples.Quartet;  
+class IterateTuple   
+{  
+public static void main(String args[])  
+{  
+//creating a quartet tuple    
+Quartet<String, Double, Integer, String> quartet = Quartet.with("Dell", 5600.00, 34, "Digital Solutions");  
+//iterate over tuple  
+for(Object obj : quartet)   
+{  
+//prints elements     
+System.out.println(obj);  
+}  
+}  
+}  
+Output:
+
+Dell
+5600.0
+34
+Digital Solutions
+
+Tuple Vs. List/Array
+Java Tuple
+Tuple	List
+It is a set of comma-separated values that are enclosed in parenthesis.	It is a set of comma-separated values that are enclosed in square brackets.
+Parenthesis is optional.	Square brackets are mandatory.
+It is immutable.	It is mutable.
+It requires less memory.	It requires more memory.
+It has fewer factory methods.	It has more factory methods.
+It has a fixed length.	It has variable lengths.
+It stores heterogeneous data.	It stores homogeneous data.
+It is suitable for large amounts of data.	It is suitable for a small amount of data.
+It can be stored in a list.	It can be stored inside a tuple.
+It is faster in comparison to List.	It is slower in comparison to the tuple.
+It is represented as t1 = (1, 2, 3, 4, 5)	It is represented as l1 = [1, 2, 3, 4, 5]
+
+
+
+
+
+
       
       
       
