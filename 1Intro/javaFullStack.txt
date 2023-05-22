@@ -1479,6 +1479,22 @@ The details of the employee are: [Sophia, Female, 22, Marketing Manager]
 
 
 
+
+
+Tuple Operations
+The following operations can be performed on a tuple:
+
+
+Creating a Tuple
+Getting Values
+Setting Values
+Adding Elements
+Iterate over Tuple
+Convert Tuple to List
+Searching in Tuple
+
+
+
       
       
       
