@@ -1495,6 +1495,29 @@ Searching in Tuple
 
 
 
+
+
+Creating Tuple
+There are three ways to create a tuple:
+
+By Using the with() Method
+By Using Constructor
+By Using Collection
+Let's see the above three ways to create a tuple.
+
+By Using the with() Method
+The javatuples library provides the with() method that creates a tuple with the specified values. The method belongs to the org.javatuples.Pair package. It is used to instantiate objects with values.
+
+Syntax:
+
+ClassName<type-1, type-2, type-n> object = ClassName.with(value-1, value-2, ......, value-n);  
+Example:
+
+Pair<String, Double> pair = Pair.with("iPhone 12", 112000.00);  
+
+
+
+
       
       
       
