@@ -1885,6 +1885,33 @@ It is represented as t1 = (1, 2, 3, 4, 5)	It is represented as l1 = [1, 2, 3, 4,
 
 
 
+Dijkstra Algorithm Java
+Play
+
+Next
+Unmute
+Current TimeÂ 
+0:00
+/
+DurationÂ 
+18:10
+Â 
+Fullscreen
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+Dijkstra algorithm is one of the prominent algorithms to find the shortest path from the source node to a destination node. It uses the greedy approach to find the shortest path. The concept of the Dijkstra algorithm is to find the shortest distance (path) starting from the source point and to ignore the longer distances while doing an update.
+
+In this section, we will implement the Dijkstra algorithm in Java program. Also, we will discuss its usage and limitations.
+
+
+
+
+
+
 
       
       
