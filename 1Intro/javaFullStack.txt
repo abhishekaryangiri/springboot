@@ -2334,6 +2334,21 @@ The time complexity of the above implementation is O(V + E*log(V)), where V is t
 
 
 
+Limitations of Dijkstra Algorithm
+The following are some limitations of the Dijkstra Algorithm:
+
+The Dijkstra algorithm does not work when an edge has negative values.
+For cyclic graphs, the algorithm does not evaluate the shortest path. Hence, for the cyclic graphs, it is not recommended to use the Dijkstra Algorithm.
+Usages of Dijkstra Algorithm
+A few prominent usages of the Dijkstra algorithm are:
+
+The algorithm is used by Google maps.
+The algorithm is used to find the distance between two locations.
+In IP routing also, this algorithm is used to discover the shortest path.
+
+
+
+
 
 
 
