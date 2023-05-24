@@ -2389,6 +2389,156 @@ We see that for every number mentioned, the number of digits is less than the nu
 
 
 
+Extravagant Numbers Java Program
+The following program checks for extravagant numbers using the steps defined above.
+
+FileName: ExtravagantNumber.java
+
+
+// A program that checks for the extravagant number from 1 to 30  
+import java.util.*;  
+  
+public class ExtravagantNumber   
+{  
+// the method finds the digits of the factors and their exponents found in the prime factorization  
+public static void addDig(ArrayList<Integer> al, int no)  
+{  
+while(no != 0)  
+{  
+no = no / 10;  
+al.add(1);  
+}  
+  
+}  
+  
+// A method to find all of the prime factors  
+// of the given number no, and stores those factors in the list al  
+public static void findPrimeFactors (int no, ArrayList<Integer> al)  
+{  
+// Extract all the 2s present in the number and store in the list al  
+Boolean flag = false;  
+int count = 0;  
+while (no % 2 == 0)   
+{  
+flag = true;  
+no = no / 2;  
+count = count + 1;  
+}  
+  
+if(flag)  
+{  
+al.add(2);  
+if(count > 1)  
+{  
+// handling digits of exponents  
+if(count > 9)  
+{  
+addDig(al, count);      
+}  
+else  
+{  
+al.add(count);  
+}  
+}  
+}  
+// after all the 2s are removed from the number no, the number no   
+// must be odd. So, we can take a jump of 2  
+// Notice the statement j = j + 2  
+// It is because 3 is odd and 3 + 2 = 5 which is also odd.  
+// 5 + 2 = 7, which is also odd. Thus, we see that when we   
+// add 2 to an odd number we always get an odd number.  
+for (int j = 3; j <= Math.sqrt(no); j = j + 2)   
+{  
+count = 0;  
+flag = false;  
+// While j divides the number no, store j and continue dividing the number no  
+while (no % j == 0)   
+{  
+flag = true;  
+no = no / j;  
+count = count + 1;  
+}  
+if(flag)  
+{  
+// we have to ensure that   
+// we are not considering the prime factors. We have to   
+// ensure that total number of digits present   
+// in the factors are considered.  
+if(j > 10)  
+{  
+addDig(al, j);  
+}  
+else  
+{  
+al.add(j);  
+}  
+if(count > 1)  
+{  
+// handling digits of exponents  
+if(count > 9)  
+{  
+addDig(al, count);      
+}  
+else  
+{  
+al.add(count);  
+}  
+}  
+}  
+}  
+// if no is a prime number whose value is   
+// greater than 2 then no should be included in the list.  
+if(no > 2)  
+{  
+if(no > 10)  
+{  
+addDig(al, no);  
+}  
+else  
+{  
+al.add(no);  
+}  
+}  
+}  
+// a method to find the total number digits   
+// present in the number no.  
+public static int findDigits(int no)  
+{  
+int dig = 0;  
+while(no != 0)  
+{  
+no = no / 10;  
+dig = dig + 1;  
+}  
+  
+return dig;  
+}  
+// main method  
+public static void main(String argvs[])  
+{  
+// List for storing all the prime factors of a number  
+ArrayList<Integer> al = new ArrayList<Integer>();  
+for(int i = 1; i <= 30; i++)  
+{  
+findPrimeFactors(i, al);  
+int size = al.size();  
+int totalNoOfDig = findDigits(i);  
+if(size > totalNoOfDig)  
+{  
+System.out.println(i + " is an extravagant number.");      
+}  
+else  
+{  
+System.out.println(i + " is not an extravagant number.");     
+}  
+al.clear();  
+}  
+}  
+}  
+
+
+
+
 
 
       
