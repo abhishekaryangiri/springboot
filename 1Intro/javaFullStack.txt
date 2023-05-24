@@ -2350,6 +2350,27 @@ In IP routing also, this algorithm is used to discover the shortest path.
 
 
 
+In this section, we will learn what is extravagant number and also create Java programs to check if the given number is an extravagant number or not. The extravagant number Java program frequently asked in Java coding interviews and academics.
+
+Extravagant Number
+A natural number that has fewer digits than the number of digits present in its prime factorization (including exponents) is known as the extravagant number. It is also known as the wasteful numbers because of this property.
+
+Extravagant numbers are the subset of composite numbers because one can factorize the extravagant numbers. But vice-versa is not true.
+
+Steps to Find Extravagant Numbers
+
+Step 1: Pick a natural number. Let's say the number is n.
+
+Step 2: Compute the prime factorization of the number n. Store the digits involved in the prime factors of the prime factorization and its exponents in an array.
+
+Step 3: Find the size of the array.
+
+Step 4: Calculate the number of digits present in the number n.
+
+Step 5: If the total number of digits present in the number n is less than the size of the array found in step 3, then the number n is an extravagant number; otherwise, not.
+
+
+
 
 
       
