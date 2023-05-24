@@ -2539,6 +2539,40 @@ al.clear();
 
 
 
+Output:
+
+1 is not an extravagant number.
+2 is not an extravagant number.
+3 is not an extravagant number.
+4 is an extravagant number.
+5 is not an extravagant number.
+6 is an extravagant number.
+7 is not an extravagant number.
+8 is an extravagant number.
+9 is an extravagant number.
+10 is not an extravagant number.
+11 is not an extravagant number.
+12 is an extravagant number.
+13 is not an extravagant number.
+14 is not an extravagant number.
+15 is not an extravagant number.
+16 is not an extravagant number.
+17 is not an extravagant number.
+18 is an extravagant number.
+19 is not an extravagant number.
+20 is an extravagant number.
+21 is not an extravagant number.
+22 is an extravagant number.
+23 is not an extravagant number.
+24 is an extravagant number.
+25 is not an extravagant number.
+26 is an extravagant number.
+27 is not an extravagant number.
+28 is an extravagant number.
+29 is not an extravagant number.
+30 is an extravagant number.
+
+
 
 
       
