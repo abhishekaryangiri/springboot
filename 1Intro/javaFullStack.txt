@@ -2605,6 +2605,23 @@ These problems led to finding a better solution for character encoding that is U
 
 
 
+What is Unicode System?
+Unicode system is an international character encoding technique that can represent most of the languages around the world.
+Unicode System is established by Unicode Consortium.
+Hexadecimal values are used to represent Unicode characters.
+There are multiple Unicode Transformation Formats:
+UTF-8: It represents 8-bits (1 byte) long character encoding.
+UTF-16: It represents 16-bits (2 bytes) long character encoding
+UTF-32: It represents 32-bits (4 bytes) long character encoding.
+To access a Unicode character the format starts with an escape sequence \u followed by 4 digits hexadecimal value.
+A Unicode character has a range of possible values starting from \u0000 to \uFFFF.
+Some of the Unicode characters are
+\u00A9 represent the copyright symbol - ©
+\u0394 represent the capital Greek letter delta - Δ
+\u0022 represent a double quote - "
+
+
+
 
 
       
