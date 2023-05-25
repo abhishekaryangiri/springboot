@@ -2596,6 +2596,14 @@ Base64 used for binary to text encoding
 
 
 
+Why does Java use Unicode System?
+There were a few limitations to the encoding techniques used before the Unicode system.
+
+In every language, different letters are present and the code assigned to every letter is also different which means multiple languages have multiple codes for various letters.
+Certain languages have many character sets, the code assigned to each character may vary in terms of length. For example, some character can be encoded with a single byte, other might require two or more bytes.
+These problems led to finding a better solution for character encoding that is Unicode System.
+
+
 
 
 
