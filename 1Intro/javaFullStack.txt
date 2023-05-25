@@ -2639,6 +2639,16 @@ Output:
 Unicode Sytem©
 
 
+In the above code, a Class UnicodeDemo is created. At the start, a Unicode String str1 is converted into a UTF-8 form using the getBytes() method. After that, the byte array is again converted into Unicode and the value of newstr is displayed on the console.
+
+Problem Caused by Unicode
+The Unicode standard was designed to represent 16-bit character encoding. It was supposed to be capable of representing all the characters in the world using the primitive data type char. But the 16-bits encoding was able to represent only 65,536 characters that were not sufficient for all the characters available around the world.
+
+So, the Unicode system was extended up to 1,112,064 characters. The characters that are larger than 16-bits are called Supplementary characters and are defined by Java using a pair of char values.
+
+In this article, we have discussed basic methods of encoding, Unicode System in Java, problems caused by Unicode system, and a Java program for demonstrating the use of Unicode system.
+
+
 
 
 
