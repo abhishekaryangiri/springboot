@@ -2649,6 +2649,23 @@ So, the Unicode system was extended up to 1,112,064 characters. The characters t
 In this article, we have discussed basic methods of encoding, Unicode System in Java, problems caused by Unicode system, and a Java program for demonstrating the use of Unicode system.
 
 
+New Line in Java
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+
+A newline (aka end of the line (EOL), line feed, or line break) signifies the end of a line and the start of a new one. Different operating systems use different notations for representing a newline using one or two control characters. On Unix/Linux and macOS systems, newline is represented by "\n"; on Microsoft Windows systems by "\r\n"; and on classic Mac OS with "\r".
+
+Methods to Print New Line in Java
+1. Using Platform-dependent newline Character
+The commonly used solution is to use platform-dependent newline characters. For instance, "\n" on Unix and "\r\n" on Windows OS. The problem with this solution is that your program will not be portable.
+
+NewLine1.java
+
+
 
 
 
