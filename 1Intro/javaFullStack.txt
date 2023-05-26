@@ -2667,6 +2667,22 @@ NewLine1.java
 
 
 
+public class NewLine1  
+{  
+    /* Driver Code */  
+    public static void main(String ar[])   
+    {  
+        /* Newline character '\n' */  
+        System.out.println("Hello" + '\n' + "World");  
+    }  
+}  
+Output:
+
+Hello
+World
+
+
+
 
 
       
