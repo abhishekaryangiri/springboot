@@ -2759,6 +2759,30 @@ World
 
 
 
+5. Using out.println()Method
+If we need a newline at the end of the string, we should call the println() method, that outputs a newline character appropriate to your platform.
+
+NewLine5.java
+
+public class NewLine5  
+{  
+    /* Driver Code */  
+    public static void main(String ar[])  
+    {  
+        /* Using println() method */  
+          
+        System.out.println("Hello");  
+        System.out.println("World");  
+    }  
+}  
+Output:
+
+Hello
+World
+In this article, we have discussed different ways to add a new line in a Java program.
+
+
+
 
 
       
