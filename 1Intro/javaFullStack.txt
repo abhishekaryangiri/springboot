@@ -2712,6 +2712,30 @@ World
 
 
 
+3. Using lineSeparator()Method
+Another solution is to use the built-in line separator method lineSeparator(). It belongs to the System class. It simply returns the value of the system property line.separator.
+
+NewLine3.java
+
+public class NewLine3  
+{  
+    /* Driver Code */  
+    public static void main(String ar[])  
+    {  
+        /* Using LineSeparator() method */  
+          
+        String newline = System.lineSeparator();  
+        System.out.println("Hello" + newline + "World");  
+    }  
+}  
+Output:
+
+Hello
+World
+
+
+
+
       
       
       
