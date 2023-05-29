@@ -2660,6 +2660,10 @@ Forward Skip 10s
 A newline (aka end of the line (EOL), line feed, or line break) signifies the end of a line and the start of a new one. Different operating systems use different notations for representing a newline using one or two control characters. On Unix/Linux and macOS systems, newline is represented by "\n"; on Microsoft Windows systems by "\r\n"; and on classic Mac OS with "\r".
 
 Methods to Print New Line in Java
+
+
+
+
 1. Using Platform-dependent newline Character
 The commonly used solution is to use platform-dependent newline characters. For instance, "\n" on Unix and "\r\n" on Windows OS. The problem with this solution is that your program will not be portable.
 
@@ -2681,6 +2685,29 @@ Output:
 Hello
 World
 
+
+
+
+
+2. Using getProperty()Method
+The recommended solution is to use the value of the system property line.separator. It returns the system-dependent line separator string. Since its value depends on the underlying OS, your code will be portable (platform-independent).
+
+NewLine2.java
+
+public class NewLine2  
+{  
+    /* Driver Code */  
+    public static void main(String args[])  
+    {  
+        /* Using the getProperty() method. */  
+        String newline = System.getProperty("line.separator");  
+        System.out.println("Hello" + newline + "World");  
+    }  
+}  
+Output:
+
+Hello
+World
 
 
 
