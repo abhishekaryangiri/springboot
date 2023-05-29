@@ -2736,6 +2736,31 @@ World
 
 
 
+4. Using %nnewline Character
+Another reasonable way of getting the platform's preferred line separator is to use the platform-independent newline character %n with the printf() method.
+
+NewLine4.java
+
+
+public class NewLine3  
+{  
+    /* Driver Code */  
+    public static void main(String ar[])  
+    {  
+        /* Using %n newline character */  
+          
+        System.out.printf("Hello%nWorld");  
+    }  
+}  
+Output:
+
+Hello
+World
+
+
+
+
+
       
       
       
